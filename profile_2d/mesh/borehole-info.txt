@@ -1,0 +1,12 @@
+Coordinate system info:
+Proj definition of local Transverse Mercator projection:
++proj=tmerc +lon_0=178.5 +lat_0=-38.7 +ellps=WGS84 +datum=WGS84 +k=0.9996 +towgs84=0.0,0.0,0.0 +type=crs
+
+U1518:
+WGS84 coordinates:  178.89607   -38.859003333333334 -2631.1
+Local Transverse Mercator coordinates:  3.436441782295286976e+04 -1.771862404823477482e+04 -2.631099999999999909e+03
+
+U1519:
+WGS84 coordinates:  178.614425   -38.727376666666665    -1000.4
+Local Transverse Mercator coordinates:  9.946172787998057174e+03 -3.044082226190067104e+03 -1.000399999999999977e+03
+
