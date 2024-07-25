@@ -7,7 +7,6 @@ Python script to interpolate NZ-wide properties to a profile.
 import numpy as np
 import math
 import h5py
-from pyproj import Transformer
 from pylith.meshio.Xdmf import Xdmf
 from spatialdata.spatialdb.SimpleGridDB import SimpleGridDB
 from spatialdata.spatialdb.SimpleGridAscii import createWriter
