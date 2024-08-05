@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env nemesis
 
 """
 Python script to interpolate NZ-wide properties to a profile.
