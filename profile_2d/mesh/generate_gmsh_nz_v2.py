@@ -34,11 +34,12 @@ class App(GenerateMesh):
     Y_BOT = -100.0e+3
 
     DX_FAULT = 5.0e+2
-    DX_BIAS = 1.05
+    DX_OBS = 50.0
+    DX_BIAS_FAULT = 1.05
+    DX_BIAS_OBS = 1.04
 
     FILENAME_TOPO = "groundsurf-profile-coords2d.tsv"
     FILENAME_SLAB = "fault-profile-coords2d.tsv"
-    FILENAME_U1518 = "U1518_points.txt"
 
 
     def __init__(self):
@@ -65,7 +66,6 @@ class App(GenerateMesh):
 
         ## Slab points
         SLAB_POINTS = self._create_points_from_file(self.FILENAME_SLAB, 0, 1)
-
 
         # Sort points
         SLAB_POINTS.sort(key=lambda tup: tup[0]) 
@@ -130,8 +130,8 @@ class App(GenerateMesh):
         self.s_slab = gmsh.model.geo.add_plane_surface([loop])
 
         ## Trying to add in points for U1518 and U1519
-        #self.p_U1518 = gmsh.model.geo.add_point(-5541.6171, -2849.1, 0.0)
-        #self.p_U1519 = gmsh.model.geo.add_point(-34030.0862, -1264.0, 0.0)
+        self.p_U1518 = gmsh.model.geo.add_point(-5541.6171, -2849.1, 0.0)
+        self.p_U1519 = gmsh.model.geo.add_point(-34030.0862, -1264.0, 0.0)
 
         gmsh.model.geo.synchronize()
 
@@ -144,8 +144,8 @@ class App(GenerateMesh):
         # Create materials matching surfaces.
         materials = (
             MaterialGroup(tag=1, entities=[self.s_slab]),
-            #MaterialGroup(tag=2, entities=[self.p_U1518]),
-            #MaterialGroup(tag=3, entities=[self.p_U1519]),
+            MaterialGroup(tag=2, entities=[self.p_U1518]),
+            MaterialGroup(tag=3, entities=[self.p_U1519]),
         )
         for material in materials:
             material.create_physical_group()
@@ -158,11 +158,13 @@ class App(GenerateMesh):
             VertexGroup(name="bndry_bot", tag=14, dim=1, entities=[self.c_bot]),
             VertexGroup(name="fault", tag=15, dim=1, entities=[self.c_slab]),
             VertexGroup(name="fault_end", tag=16, dim=0, entities=[self.p_slab_west]),
-            #VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
-            #VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
+            VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
+            VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
         )
         for group in vertex_groups:
             group.create_physical_group()
+
+        #gmsh.model.geo.synchronize()
         
     def generate_mesh(self, cell):
         """Generate the mesh.
@@ -175,20 +177,26 @@ class App(GenerateMesh):
 
         # First, we setup a field `field_distance` with the distance from the fault.
         fault_distance = gmsh.model.mesh.field.add("Distance")
-        gmsh.model.mesh.field.setNumber(fault_distance, "Sampling", 100)
+        observatory_distance = gmsh.model.mesh.field.add("Distance")
+        gmsh.model.mesh.field.setNumber(fault_distance, "Sampling", 200)
         gmsh.model.mesh.field.setNumbers(fault_distance, "CurvesList", [self.c_slab])
+        gmsh.model.mesh.field.setNumbers(observatory_distance, "PointsList", [602,603])
 
         # Second, we setup a field `field_size`, which is the mathematical expression
         # for the cell size as a function of the cell size on the fault, the distance from
         # the fault (as given by `field_size`, and the bias factor.
         # The `GenerateMesh` class includes a special function `get_math_progression` 
         # for creating the string with the mathematical function.
-        field_size = gmsh.model.mesh.field.add("MathEval")
-        math_exp = GenerateMesh.get_math_progression(fault_distance, min_dx=self.DX_FAULT, bias=self.DX_BIAS)
-        gmsh.model.mesh.field.setString(field_size, "F", math_exp)
+        field_size_fault = gmsh.model.mesh.field.add("MathEval")
+        math_exp_fault = GenerateMesh.get_math_progression(fault_distance, min_dx=self.DX_FAULT, bias=self.DX_BIAS_FAULT)
+        gmsh.model.mesh.field.setString(field_size_fault, "F", math_exp_fault)
+        field_size_obs = gmsh.model.mesh.field.add("MathEval")
+        math_exp_obs = GenerateMesh.get_math_progression(observatory_distance, min_dx=self.DX_OBS, bias=self.DX_BIAS_OBS)
+        gmsh.model.mesh.field.setString(field_size_obs, "F", math_exp_obs)
 
         # Finally, we use the field `field_size` for the cell size of the mesh.
-        gmsh.model.mesh.field.setAsBackgroundMesh(field_size)
+        gmsh.model.mesh.field.setAsBackgroundMesh(field_size_fault)
+        gmsh.model.mesh.field.setAsBackgroundMesh(field_size_obs)
 
         if cell == "quad":
             gmsh.option.setNumber("Mesh.Algorithm", 8)
