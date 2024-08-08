@@ -2,18 +2,8 @@
 """Generate a tri or quad mesh of a subduction zone vertical profile using Gmsh, making
 use of the built-in geometry engine.
 
-Points have been projected from longitude/latitude into a local
-transverse Mercator projection. PyLith uses the Proj.4 library
-for geographic projections. The proj parameters are:
-
-+proj=tmerc +datum=WGS84 +lon_0=142.0 +lat_0=38.0 +k=0.9996
-
-so that the local origin is at a longitude of 142.0 degrees (WGS84)
-and a latitude of 38.0 degrees (WGS84).
-
 Run `generate_gmsh.py --help` to see the command line options.
 
----- EDITED FROM generate_gmsh.py IN SUBDUCTION_2D EXAMPLE ----
 
 """
 import numpy as np
