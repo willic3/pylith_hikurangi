@@ -5,19 +5,20 @@ Python script to interpolate NZ-wide properties to a profile.
 """
 
 import numpy as np
+from numpy import genfromtxt
 import math
 import h5py
 from pylith.meshio.Xdmf import Xdmf
 from spatialdata.spatialdb.SimpleGridDB import SimpleGridDB
-from spatialdata.spatialdb.SimpleGridAscii import createWriter
+from spatialdata.spatialdb.SimpleIOAscii import createWriter
 from coordsys_pylith3 import cs_gisborne_mesh
 from coordsys_pylith3 import cs_profile2d
 
 # Input/output files.
 inSpatialdb = '../../nzwide_velmodel/vlnzw2.3_expanded_rot.spatialdb'
-outProfile3D = 'vlnzw2.3_profile3d.h5'
-outProfile2D = 'vlnzw2.3_profile2d.h5'
-outSpatialdb = 'vlnzw2.3_profile2d.spatialdb'
+outProfile3D = 'vlnzw2.3_profile3d_combinedtest.h5'
+outProfile2D = 'vlnzw2.3_profile2d_combinedtest.h5'
+outSpatialdb = 'vlnzw2.3_profile2d_combinedtest.spatialdb'
 
 # Reference point (trench) in 3D TM coordinates and points defining profile.
 refCoordTM = np.array([3.9114289e+04, -2.0573137e+04], dtype=np.float64)
@@ -104,6 +105,35 @@ density = queryData[:,0]
 vs = queryData[:,1]
 vp = queryData[:,2]
 
+
+## --- Add LWD to vp, vs, density, and points --- ##
+
+## ------ Load vp, vs, density from LWD -------- ##
+
+lwd = genfromtxt('downsampled_lwd.csv', delimiter=',',skip_header=1)
+new_points = np.column_stack((lwd[:,0].flatten(), lwd[:,1].flatten()))
+new_vs = lwd[:,2]
+new_vp = lwd[:,3]
+new_density = lwd[:,4]
+
+# Combine coordinates from sdb and lwd
+combined_points = np.vstack((points2D, new_points))
+
+# Combine old and new data points
+combined_vp = np.hstack((vp, new_vp))
+combined_vs = np.hstack((vs, new_vs))
+combined_density = np.hstack((density, new_density))
+combined_numPoints = combined_points.shape[0]
+
+# # New x and y vectors
+# xNewSample = lwd[0:199,1]
+# yNewSample = lwd[::199,0]
+# xSampleCombined = np.hstack((xSample2D, xNewSample))
+# ySampleCombined = np.hstack((ySample2D, yNewSample))
+
+
+## ---------------------------------------------- ##
+
 # Write results to HDF5 file (3D profile).
 h5 = h5py.File(outProfile3D, 'w')
 verts = h5.create_dataset("geometry/vertices", data=coords3D)
@@ -127,9 +157,11 @@ h5.close()
 xdmfWriter = Xdmf()
 xdmfWriter.write(outProfile3D)
 
+# ------- 2D profile -------- #
+
 # Write results to HDF5 file (2D profile).
 h5 = h5py.File(outProfile2D, 'w')
-verts = h5.create_dataset("geometry/vertices", data=points2D)
+verts = h5.create_dataset("geometry/vertices", data=combined_points)
 
 timeStatic = np.zeros(1, dtype=np.float64)
 time = h5.create_dataset("time", data=timeStatic.reshape(1,1,1), maxshape=(None, 1, 1))
@@ -137,13 +169,13 @@ time = h5.create_dataset("time", data=timeStatic.reshape(1,1,1), maxshape=(None,
 topo = h5.create_dataset("viz/topology/cells", data=connect, dtype='d')
 topo.attrs['cell_dim'] = np.int32(2)
 
-vpH = h5.create_dataset("vertex_fields/vp", data=vp.reshape(1, numPoints, 1), maxshape=(None, numPoints, 1))
+vpH = h5.create_dataset("vertex_fields/vp", data=combined_vp.reshape(1, combined_numPoints, 1), maxshape=(None, combined_numPoints, 1))
 vpH.attrs['vector_field_type'] = 'scalar'
 
-vsH = h5.create_dataset("vertex_fields/vs", data=vs.reshape(1, numPoints, 1), maxshape=(None, numPoints, 1))
+vsH = h5.create_dataset("vertex_fields/vs", data=combined_vs.reshape(1, combined_numPoints, 1), maxshape=(None, combined_numPoints, 1))
 vsH.attrs['vector_field_type'] = 'scalar'
 
-densityH = h5.create_dataset("vertex_fields/density", data=density.reshape(1, numPoints, 1), maxshape=(None, numPoints, 1))
+densityH = h5.create_dataset("vertex_fields/density", data=combined_density.reshape(1, combined_numPoints, 1), maxshape=(None, combined_numPoints, 1))
 densityH.attrs['vector_field_type'] = 'scalar'
 
 h5.close()
@@ -153,20 +185,18 @@ xdmfWriter.write(outProfile2D)
 # Write profile spatial database.
 writer = createWriter(outSpatialdb)
 
-values = [{'name': "vp",
+values_sdb = [{'name': "vp",
            'units': "m/s",
-           'data': vp},
+           'data': combined_vp},
           {'name': "vs",
            'units': "m/s",
-           'data': vs},
+           'data': combined_vs},
           {'name': "density",
            'units': "kg/m**2",
-           'data': density}]
+           'data': combined_density}]
 
-writer.write({'points': points2D,
-              'x': xSample2D,
-              'y': ySample2D,
+writer.write({'points': combined_points,
               'coordsys': csProfile2D,
               'data_dim': 2,
-              'values': values})
+              'values': values_sdb})
 
