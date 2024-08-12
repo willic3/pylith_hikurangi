@@ -41,7 +41,7 @@ class App(GenerateMesh):
             "default": "tri",
             "choices": ["tri"],
             }
-        self.filename = "mesh_tri_nz_v2.msh"
+        self.filename = "nz_mesh_borehole.msh"
 
     def _create_points_from_file(self, filename, col1, col2):
         coordinates = np.loadtxt(filename, skiprows=1)
@@ -119,7 +119,7 @@ class App(GenerateMesh):
             ])
         self.s_slab = gmsh.model.geo.add_plane_surface([loop])
 
-        ## Trying to add in points for U1518 and U1519
+        ## Add in points for U1518 and U1519
         self.p_U1518 = gmsh.model.geo.add_point(-5541.6171, -2849.1, 0.0)
         self.p_U1519 = gmsh.model.geo.add_point(-34030.0862, -1264.0, 0.0)
 
@@ -148,13 +148,14 @@ class App(GenerateMesh):
             VertexGroup(name="bndry_bot", tag=14, dim=1, entities=[self.c_bot]),
             VertexGroup(name="fault", tag=15, dim=1, entities=[self.c_slab]),
             VertexGroup(name="fault_end", tag=16, dim=0, entities=[self.p_slab_west]),
-            VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
-            VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
+            #VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
+            #VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
         )
         for group in vertex_groups:
             group.create_physical_group()
 
-        #gmsh.model.geo.synchronize()
+
+        gmsh.model.geo.synchronize()
         
     def generate_mesh(self, cell):
         """Generate the mesh.
