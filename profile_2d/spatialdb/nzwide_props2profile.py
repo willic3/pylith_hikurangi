@@ -9,7 +9,7 @@ from numpy import genfromtxt
 import math
 import h5py
 from pylith.meshio.Xdmf import Xdmf
-from spatialdata.spatialdb.SimpleGridDB import SimpleGridDB
+from spatialdata.spatialdb.SimpleDB import SimpleDB
 from spatialdata.spatialdb.SimpleIOAscii import createWriter
 from coordsys_pylith3 import cs_gisborne_mesh
 from coordsys_pylith3 import cs_profile2d
@@ -88,7 +88,7 @@ coords3D = np.column_stack((coordsXShift, coordsYShift, points2D[:,1]))
 numPoints = coords3D.shape[0]
 
 # NZ-wide spatialdb.
-dbNzwide = SimpleGridDB()
+dbNzwide = SimpleDB()
 dbNzwide.inventory.description = 'NZ-wide velocity model'
 dbNzwide.inventory.filename = inSpatialdb
 dbNzwide.inventory.queryType = 'linear'
