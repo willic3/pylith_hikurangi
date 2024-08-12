@@ -125,7 +125,6 @@ class App(GenerateMesh):
 
         gmsh.model.geo.synchronize()
 
-
     def mark(self):
         """Mark geometry for materials, boundary conditions, faults, etc.
 
@@ -134,8 +133,8 @@ class App(GenerateMesh):
         # Create materials matching surfaces.
         materials = (
             MaterialGroup(tag=1, entities=[self.s_slab]),
-            MaterialGroup(tag=2, entities=[self.p_U1518]),
-            MaterialGroup(tag=3, entities=[self.p_U1519]),
+            #MaterialGroup(tag=2, entities=[self.p_U1518]),
+            #MaterialGroup(tag=3, entities=[self.p_U1519]),
         )
         for material in materials:
             material.create_physical_group()
@@ -148,14 +147,14 @@ class App(GenerateMesh):
             VertexGroup(name="bndry_bot", tag=14, dim=1, entities=[self.c_bot]),
             VertexGroup(name="fault", tag=15, dim=1, entities=[self.c_slab]),
             VertexGroup(name="fault_end", tag=16, dim=0, entities=[self.p_slab_west]),
-            #VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
-            #VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
+            VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
+            VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
         )
         for group in vertex_groups:
             group.create_physical_group()
 
 
-        gmsh.model.geo.synchronize()
+        #gmsh.model.geo.synchronize()
         
     def generate_mesh(self, cell):
         """Generate the mesh.
