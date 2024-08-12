@@ -110,7 +110,7 @@ vp = queryData[:,2]
 
 ## ------ Load vp, vs, density from LWD -------- ##
 
-lwd = genfromtxt('downsampled_lwd.csv', delimiter=',',skip_header=1)
+lwd = genfromtxt('downsampled_lwd_new.csv', delimiter=',',skip_header=1)
 new_points = np.column_stack((lwd[:,0].flatten(), lwd[:,1].flatten()))
 new_vs = lwd[:,2]
 new_vp = lwd[:,3]
