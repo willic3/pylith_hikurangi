@@ -147,8 +147,6 @@ class App(GenerateMesh):
             VertexGroup(name="bndry_bot", tag=14, dim=1, entities=[self.c_bot]),
             VertexGroup(name="fault", tag=15, dim=1, entities=[self.c_slab]),
             VertexGroup(name="fault_end", tag=16, dim=0, entities=[self.p_slab_west]),
-            #VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
-            #VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
         )
         for group in vertex_groups:
             group.create_physical_group()
@@ -201,9 +199,12 @@ class App(GenerateMesh):
         
         #points_of_interest = [[-5541.6171, -2849.1],[-34030.0862, -1264.0]]
         
-        # Get all 2D elements
-        elementTag, elementType, nodeTags, u, v, w = gmsh.model.mesh.getElementByCoordinates(-5541.6171,-2849.1,0,dim=2)
-        print(elementTag,nodeTags)
+        # # Get all 2D elements
+        # elementTag, elementType, nodeTags, u, v, w = gmsh.model.mesh.getElementByCoordinates(-5541.6171,-2849.1,0,dim=2)
+        # print("Element tag =",elementTag,"Element type",elementType,", Node tags=",nodeTags)
+        # new_physical_group = gmsh.model.addPhysicalGroup(2, [elementTag])
+        # gmsh.model.setPhysicalName(2, new_physical_group, "NewMaterial")
+        # gmsh.model.mesh.setPhysicalGroups(2, [[new_physical_group, elementTag]])
 
         
 
