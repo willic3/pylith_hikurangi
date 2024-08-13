@@ -18,9 +18,9 @@ from coordsys_pylith3 import cs_profile2d
 
 # Input/output files.
 inSpatialdb = '../../nzwide_velmodel/vlnzw2.3_expanded_rot.spatialdb'
-outProfile3D = 'vlnzw2.3_profile3d_combinedtest.h5'
-outProfile2D = 'vlnzw2.3_profile2d_combinedtest.h5'
-outSpatialdb = 'vlnzw2.3_profile2d_combinedtest.spatialdb'
+outProfile3D = 'nz_sdb_20m_lwd.h5'
+outProfile2D = 'nz_sdb_20m_lwd.h5'
+outSpatialdb = 'nz_sdb_20m_lwd.spatialdb'
 
 # Reference point (trench) in 3D TM coordinates and points defining profile.
 refCoordTM = np.array([3.9114289e+04, -2.0573137e+04], dtype=np.float64)
@@ -112,7 +112,7 @@ vp = queryData[:,2]
 
 ## ------ Load vp, vs, density from LWD -------- ##
 
-lwd = genfromtxt('downsampled_lwd_new.csv', delimiter=',',skip_header=1)
+lwd = genfromtxt('downsampled_20m_lwd.csv', delimiter=',',skip_header=1)
 new_points = np.column_stack((lwd[:,0].flatten(), lwd[:,1].flatten()))
 new_vs = lwd[:,2]
 new_vp = lwd[:,3]
