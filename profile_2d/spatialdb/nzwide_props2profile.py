@@ -192,7 +192,7 @@ values_sdb = [{'name': "vp",
            'units': "m/s",
            'data': combined_vs},
           {'name': "density",
-           'units': "kg/m**2",
+           'units': "kg/m**3",
            'data': combined_density}]
 
 writer.write({'points': combined_points,
