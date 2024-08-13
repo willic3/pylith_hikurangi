@@ -130,7 +130,7 @@ class App(GenerateMesh):
 
         This method is abstract in the base class and must be implemented.
         """
-        # Create materials matching surfaces.
+        # Create material for the whole mesh.
         materials = (
             MaterialGroup(tag=1, entities=[self.s_slab]),
             #MaterialGroup(tag=2, entities=[self.p_U1518]),
@@ -147,14 +147,12 @@ class App(GenerateMesh):
             VertexGroup(name="bndry_bot", tag=14, dim=1, entities=[self.c_bot]),
             VertexGroup(name="fault", tag=15, dim=1, entities=[self.c_slab]),
             VertexGroup(name="fault_end", tag=16, dim=0, entities=[self.p_slab_west]),
-            VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
-            VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
+            #VertexGroup(name='u1518', tag=20, dim=0, entities=[self.p_U1518]),
+            #VertexGroup(name='u1519', tag=21, dim=0, entities=[self.p_U1519]),
         )
         for group in vertex_groups:
             group.create_physical_group()
 
-
-        #gmsh.model.geo.synchronize()
         
     def generate_mesh(self, cell):
         """Generate the mesh.
@@ -196,6 +194,18 @@ class App(GenerateMesh):
             gmsh.model.mesh.generate(2)
         gmsh.model.mesh.optimize("Laplace2D")
 
+
+
+        ## ------- After mesh is generated, find element containing U1518 and assign new material -----
+        
+        
+        #points_of_interest = [[-5541.6171, -2849.1],[-34030.0862, -1264.0]]
+        
+        # Get all 2D elements
+        elementTag, elementType, nodeTags, u, v, w = gmsh.model.mesh.getElementByCoordinates(-5541.6171,-2849.1,0,dim=2)
+        print(elementTag,nodeTags)
+
+        
 
 if __name__ == "__main__":
     App().main()
