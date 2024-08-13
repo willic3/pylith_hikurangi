@@ -7,6 +7,7 @@ Python script to interpolate NZ-wide properties to a profile.
 import numpy as np
 from numpy import genfromtxt
 import math
+import scipy
 import h5py
 from pylith.meshio.Xdmf import Xdmf
 from spatialdata.spatialdb.SimpleDB import SimpleDB
@@ -126,11 +127,9 @@ combined_vs = np.hstack((vs, new_vs))
 combined_density = np.hstack((density, new_density))
 combined_numPoints = combined_points.shape[0]
 
-# # New x and y vectors
-# xNewSample = lwd[0:199,1]
-# yNewSample = lwd[::199,0]
-# xSampleCombined = np.hstack((xSample2D, xNewSample))
-# ySampleCombined = np.hstack((ySample2D, yNewSample))
+# Create new connectivity for writing xmf file
+tri = scipy.spatial.Delaunay(combined_points)
+connectivity = tri.simplices
 
 
 ## ---------------------------------------------- ##
@@ -167,7 +166,7 @@ verts = h5.create_dataset("geometry/vertices", data=combined_points)
 timeStatic = np.zeros(1, dtype=np.float64)
 time = h5.create_dataset("time", data=timeStatic.reshape(1,1,1), maxshape=(None, 1, 1))
 
-topo = h5.create_dataset("viz/topology/cells", data=connect, dtype='d')
+topo = h5.create_dataset("viz/topology/cells", data=connectivity, dtype='d')
 topo.attrs['cell_dim'] = np.int32(2)
 
 vpH = h5.create_dataset("vertex_fields/vp", data=combined_vp.reshape(1, combined_numPoints, 1), maxshape=(None, combined_numPoints, 1))
