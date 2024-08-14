@@ -66,10 +66,10 @@
             "version": "9.2.0"
         }
     },
-    "timestamp": "2024-08-13T16:42:36.730096",
+    "timestamp": "2024-08-14T16:20:44.845292",
     "application": {
         "name": "pylithapp",
-        "class": "<pylith.apps.PyLithApp.PyLithApp object at 0x10eb148e0>",
+        "class": "<pylith.apps.PyLithApp.PyLithApp object at 0x10e878a00>",
         "properties": {
             "include-citations": {
                 "value": "False",
@@ -99,7 +99,7 @@
         "components": {
             "dump_parameters": {
                 "name": "dumpparamters",
-                "class": "<pylith.utils.DumpParametersJson.DumpParametersJson object at 0x11b1a9a20>",
+                "class": "<pylith.utils.DumpParametersJson.DumpParametersJson object at 0x11af6ed70>",
                 "description": "Dump parameters used and version information to file.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -130,7 +130,7 @@
             },
             "job": {
                 "name": "job",
-                "class": "<pythia.pyre.schedulers.Job.Job object at 0x11b183f70>",
+                "class": "<pythia.pyre.schedulers.Job.Job object at 0x11af6ff40>",
                 "description": "No description available.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -208,7 +208,7 @@
             },
             "launcher": {
                 "name": "mpich",
-                "class": "<pythia.mpi.LauncherMPICH.LauncherMPICH object at 0x11b1aa260>",
+                "class": "<pythia.mpi.LauncherMPICH.LauncherMPICH object at 0x11af7d660>",
                 "description": "No description available.",
                 "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/mpi/launchers/mpich.odb'} via {default}",
                 "aliases": [
@@ -269,7 +269,7 @@
             },
             "mesh_generator": {
                 "name": "meshimporter",
-                "class": "<pylith.topology.MeshImporter.MeshImporter object at 0x11b1a9390>",
+                "class": "<pylith.topology.MeshImporter.MeshImporter object at 0x11af6e860>",
                 "description": "Generates or imports the computational mesh.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -323,7 +323,7 @@
                         "components": {
                             "data_writer": {
                                 "name": "datawriterhdf5",
-                                "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11b2a8ab0> >",
+                                "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11ddfed90> >",
                                 "description": "Data writer for partition information.",
                                 "setFrom": "{default}",
                                 "aliases": [
@@ -353,7 +353,7 @@
                         ],
                         "properties": {
                             "filename": {
-                                "value": "borehole_test_mesh.msh",
+                                "value": "material_testing_v2.msh",
                                 "type": "str",
                                 "description": "Name of mesh file for reading with PETSc.",
                                 "setFrom": "{file='./pylithapp.cfg', line=42, column=-1}"
@@ -368,7 +368,7 @@
                         "components": {
                             "coordsys": {
                                 "name": "cscart",
-                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11b295ec0> >",
+                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11ddfc1e0> >",
                                 "description": "Coordinate system associated with mesh.",
                                 "setFrom": "{default}",
                                 "aliases": [
@@ -416,7 +416,7 @@
             },
             "metadata": {
                 "name": "metadata",
-                "class": "<pylith.utils.SimulationMetadata.SimulationMetadata object at 0x11b181360>",
+                "class": "<pylith.utils.SimulationMetadata.SimulationMetadata object at 0x11af6f340>",
                 "description": "Simulation metadata.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -476,7 +476,7 @@
             },
             "petsc": {
                 "name": "petsc",
-                "class": "<pylith.utils.PetscManager.PetscManager object at 0x11b1838b0>",
+                "class": "<pylith.utils.PetscManager.PetscManager object at 0x11af6fa30>",
                 "description": "Manager for PETSc options.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -523,7 +523,7 @@
                 "components": {
                     "bc": {
                         "name": "bc",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11b30e110>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11de6a650>",
                         "description": "Boundary conditions.",
                         "setFrom": "{built-in} via {file='./pylithapp.cfg', line=96, column=-1}",
                         "aliases": [
@@ -587,7 +587,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e2c5930>",
+                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e181ed0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -597,7 +597,7 @@
                                         "components": {
                                             "initial_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2eca60>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1acfd0>",
                                                 "description": "Initial amplitude, f_0(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -646,7 +646,7 @@
                                             },
                                             "rate_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2ecbb0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1ad120>",
                                                 "description": "Rate amplitude, dot{f}_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -695,7 +695,7 @@
                                             },
                                             "rate_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2ecd00>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1ad270>",
                                                 "description": "Rate starting time, t_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -744,7 +744,7 @@
                                             },
                                             "time_history_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2ece50>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1ad3c0>",
                                                 "description": "Time history amplitude, f_2(x). subfield",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -793,7 +793,7 @@
                                             },
                                             "time_history_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2ecfa0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1ad510>",
                                                 "description": "Time history starting time, t_2(s), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -844,7 +844,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "zerodb",
-                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e3215c0> >",
+                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e1d5b30> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=120, column=-1}",
                                         "aliases": [
@@ -881,7 +881,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e2c6bf0>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e183190>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -893,7 +893,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e2ec190>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e1ac700>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -953,7 +953,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e322760> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e1d6cd0> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -976,7 +976,7 @@
                                     },
                                     "time_history": {
                                         "name": "nullcomponent",
-                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e2ec2e0>",
+                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e1ac850>",
                                         "description": "Time history with normalized amplitude.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1044,7 +1044,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e2c6260>",
+                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e182800>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -1054,7 +1054,7 @@
                                         "components": {
                                             "initial_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e345cc0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1fa230>",
                                                 "description": "Initial amplitude, f_0(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1103,7 +1103,7 @@
                                             },
                                             "rate_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e3463b0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1fa920>",
                                                 "description": "Rate amplitude, dot{f}_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1152,7 +1152,7 @@
                                             },
                                             "rate_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e346500>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1faa70>",
                                                 "description": "Rate starting time, t_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1201,7 +1201,7 @@
                                             },
                                             "time_history_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e346650>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1fabc0>",
                                                 "description": "Time history amplitude, f_2(x). subfield",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1250,7 +1250,7 @@
                                             },
                                             "time_history_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e3467a0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1fad10>",
                                                 "description": "Time history starting time, t_2(s), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1301,7 +1301,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "zerodb",
-                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e35eb20> >",
+                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e21b090> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=113, column=-1}",
                                         "aliases": [
@@ -1338,7 +1338,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e3454e0>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e1f9a50>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1350,7 +1350,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e345390>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e1f9900>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1410,7 +1410,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e35fba0> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e248150> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -1433,7 +1433,7 @@
                                     },
                                     "time_history": {
                                         "name": "nullcomponent",
-                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e345ae0>",
+                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e1fa050>",
                                         "description": "Time history with normalized amplitude.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1501,7 +1501,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e2c6620>",
+                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e182bc0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -1511,7 +1511,7 @@
                                         "components": {
                                             "initial_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e38aec0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e24b430>",
                                                 "description": "Initial amplitude, f_0(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1560,7 +1560,7 @@
                                             },
                                             "rate_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e38b5b0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e24bb20>",
                                                 "description": "Rate amplitude, dot{f}_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1609,7 +1609,7 @@
                                             },
                                             "rate_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e38b700>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e24bc70>",
                                                 "description": "Rate starting time, t_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1658,7 +1658,7 @@
                                             },
                                             "time_history_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e38b850>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e24bdc0>",
                                                 "description": "Time history amplitude, f_2(x). subfield",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1707,7 +1707,7 @@
                                             },
                                             "time_history_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e38b9a0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e24bf10>",
                                                 "description": "Time history starting time, t_2(s), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1758,7 +1758,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "zerodb",
-                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e3b3d20> >",
+                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e29c2d0> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=127, column=-1}",
                                         "aliases": [
@@ -1795,7 +1795,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e38a6e0>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e24ac50>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1807,7 +1807,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e38a590>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e24ab00>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1867,7 +1867,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e3e0de0> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e29d350> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -1890,7 +1890,7 @@
                                     },
                                     "time_history": {
                                         "name": "nullcomponent",
-                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e38ace0>",
+                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e24b250>",
                                         "description": "Time history with normalized amplitude.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1906,7 +1906,7 @@
                     },
                     "defaults": {
                         "name": "problem_defaults",
-                        "class": "<pylith.problems.ProblemDefaults.ProblemDefaults object at 0x11b2ca680>",
+                        "class": "<pylith.problems.ProblemDefaults.ProblemDefaults object at 0x11de1ff40>",
                         "description": "Default options for problem.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -1943,7 +1943,7 @@
                     },
                     "gravity_field": {
                         "name": "nullcomponent",
-                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11b2c9e10>",
+                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11de2a3b0>",
                         "description": "Database used for gravity field.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -1955,7 +1955,7 @@
                     },
                     "interfaces": {
                         "name": "interfaces",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11b2db910>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11de37e50>",
                         "description": "Interior surfaces with constraints or constitutive models.",
                         "setFrom": "{built-in} via {file='./pylithapp.cfg', line=79, column=-1}",
                         "aliases": [
@@ -2025,7 +2025,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.faults.AuxSubfieldsFault.AuxSubfieldsFault object at 0x11e4053f0>",
+                                        "class": "<pylith.faults.AuxSubfieldsFault.AuxSubfieldsFault object at 0x11e2c1960>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -2035,7 +2035,7 @@
                                         "components": {
                                             "slip": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e406ec0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2c3430>",
                                                 "description": "Slip subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2086,7 +2086,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "simpledb",
-                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e4359b0> >",
+                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e2e1f20> >",
                                         "description": "No description available.",
                                         "setFrom": "{imported} via {file='heterogeneous_greensfxn.cfg', line=145, column=-1}",
                                         "aliases": [
@@ -2110,7 +2110,7 @@
                                         "components": {
                                             "iohandler": {
                                                 "name": "simpleioascii",
-                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e434ea0> >",
+                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e2e1410> >",
                                                 "description": "I/O handler for database.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2131,7 +2131,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e4063b0>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e2c2920>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -2143,7 +2143,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e406260>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e2c27d0>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -2203,7 +2203,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e436d00> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e2e3270> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2230,7 +2230,7 @@
                     },
                     "materials": {
                         "name": "materials",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11b2d87f0>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11de35000>",
                         "description": "Materials in problem.",
                         "setFrom": "{built-in} via {file='./pylithapp.cfg', line=72, column=-1}",
                         "aliases": [
@@ -2276,7 +2276,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.materials.AuxSubfieldsElasticity.AuxSubfieldsElasticity object at 0x11e2159c0>",
+                                        "class": "<pylith.materials.AuxSubfieldsElasticity.AuxSubfieldsElasticity object at 0x11dfcafe0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -2286,7 +2286,7 @@
                                         "components": {
                                             "body_force": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e232890>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe3e20>",
                                                 "description": "Body force subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2335,7 +2335,7 @@
                                             },
                                             "density": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e232740>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe3cd0>",
                                                 "description": "Density subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2384,7 +2384,7 @@
                                             },
                                             "gravitational_acceleration": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2329e0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe3f70>",
                                                 "description": "Gravitational acceleration subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2453,7 +2453,7 @@
                                         "components": {
                                             "auxiliary_subfields": {
                                                 "name": "auxiliary_subfields",
-                                                "class": "<pylith.materials.AuxSubfieldsIsotropicLinearElasticity.AuxSubfieldsIsotropicLinearElasticity object at 0x11e2318d0>",
+                                                "class": "<pylith.materials.AuxSubfieldsIsotropicLinearElasticity.AuxSubfieldsIsotropicLinearElasticity object at 0x11dfe2e60>",
                                                 "description": "Discretization information for physical properties and state variables.",
                                                 "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                                 "aliases": [
@@ -2463,7 +2463,7 @@
                                                 "components": {
                                                     "bulk_modulus": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e2a4700>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e04dc90>",
                                                         "description": "Bulk modulus subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2512,7 +2512,7 @@
                                                     },
                                                     "reference_strain": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e2a49a0>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e04df30>",
                                                         "description": "Reference strain subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2561,7 +2561,7 @@
                                                     },
                                                     "reference_stress": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e2a4850>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e04dde0>",
                                                         "description": "Reference stress subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2610,7 +2610,7 @@
                                                     },
                                                     "shear_modulus": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e2a4670>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e04dc00>",
                                                         "description": "Shear modulus subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2663,9 +2663,9 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "simpledb",
-                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e24ff00> >",
+                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e0214d0> >",
                                         "description": "Database for physical property parameters.",
-                                        "setFrom": "{default}",
+                                        "setFrom": "{imported} via {file='heterogeneous_greensfxn.cfg', line=53, column=-1}",
                                         "aliases": [
                                             "simpledb",
                                             "db_auxiliary_field"
@@ -2687,7 +2687,7 @@
                                         "components": {
                                             "iohandler": {
                                                 "name": "simpleioascii",
-                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e24f540> >",
+                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e020b10> >",
                                                 "description": "I/O handler for database.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2708,7 +2708,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "derived_subfields",
-                                        "class": "<pylith.materials.DerivedSubfieldsElasticity.DerivedSubfieldsElasticity object at 0x11e2168c0>",
+                                        "class": "<pylith.materials.DerivedSubfieldsElasticity.DerivedSubfieldsElasticity object at 0x11dfca3e0>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -2718,7 +2718,7 @@
                                         "components": {
                                             "cauchy_strain": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e2170d0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfcb610>",
                                                 "description": "Cauchy strain subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2767,7 +2767,7 @@
                                             },
                                             "cauchy_stress": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e217190>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfcb6d0>",
                                                 "description": "Cauchy stress subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2818,7 +2818,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e230940>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11dfe20e0>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -2878,7 +2878,1333 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e27dc20> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e0231b0> >",
+                                                        "description": "Writer for data.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "datawriterhdf5",
+                                                            "writer"
+                                                        ],
+                                                        "properties": {
+                                                            "filename": {
+                                                                "value": "",
+                                                                "type": "str",
+                                                                "description": "Name of HDF5 file.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "u1518_mat": {
+                                "name": "elasticity",
+                                "class": "<pylith.materials.Elasticity.Elasticity;  >",
+                                "description": "No description available.",
+                                "setFrom": "{default}",
+                                "aliases": [
+                                    "elasticity",
+                                    "u1518_mat"
+                                ],
+                                "properties": {
+                                    "description": {
+                                        "value": "Material properties at U1518",
+                                        "type": "str",
+                                        "description": "Descriptive label for material.",
+                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=66, column=-1}"
+                                    },
+                                    "label": {
+                                        "value": "material-id",
+                                        "type": "str",
+                                        "description": "Name of label for material. Currently only 'material-id' is allowed.",
+                                        "setFrom": "{default}"
+                                    },
+                                    "label_value": {
+                                        "value": "2",
+                                        "type": "int",
+                                        "description": "Value of label for material.",
+                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=67, column=-1}"
+                                    },
+                                    "use_body_force": {
+                                        "value": "False",
+                                        "type": "bool",
+                                        "description": "Include body force term in elasticity equation.",
+                                        "setFrom": "{default}"
+                                    }
+                                },
+                                "components": {
+                                    "auxiliary_subfields": {
+                                        "name": "auxiliary_subfields",
+                                        "class": "<pylith.materials.AuxSubfieldsElasticity.AuxSubfieldsElasticity object at 0x11dfcbfd0>",
+                                        "description": "Discretization information for auxiliary subfields.",
+                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
+                                        "aliases": [
+                                            "auxiliary_subfields"
+                                        ],
+                                        "properties": {},
+                                        "components": {
+                                            "body_force": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e076cb0>",
+                                                "description": "Body force subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "body_force"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            },
+                                            "density": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e076b60>",
+                                                "description": "Density subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "density"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=76, column=-1}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            },
+                                            "gravitational_acceleration": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e076e00>",
+                                                "description": "Gravitational acceleration subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "gravitational_acceleration"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            }
+                                        }
+                                    },
+                                    "bulk_rheology": {
+                                        "name": "isotropiclinearelasticity",
+                                        "class": "<pylith.materials.IsotropicLinearElasticity.IsotropicLinearElasticity;  >",
+                                        "description": "Bulk rheology for elastic material.",
+                                        "setFrom": "{default}",
+                                        "aliases": [
+                                            "isotropiclinearelasticity",
+                                            "bulk_rheology"
+                                        ],
+                                        "properties": {
+                                            "use_reference_state": {
+                                                "value": "False",
+                                                "type": "bool",
+                                                "description": "Use reference stress/strain state.",
+                                                "setFrom": "{default}"
+                                            }
+                                        },
+                                        "components": {
+                                            "auxiliary_subfields": {
+                                                "name": "auxiliary_subfields",
+                                                "class": "<pylith.materials.AuxSubfieldsIsotropicLinearElasticity.AuxSubfieldsIsotropicLinearElasticity object at 0x11e076320>",
+                                                "description": "Discretization information for physical properties and state variables.",
+                                                "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
+                                                "aliases": [
+                                                    "auxiliary_subfields"
+                                                ],
+                                                "properties": {},
+                                                "components": {
+                                                    "bulk_modulus": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e0c3520>",
+                                                        "description": "Bulk modulus subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "bulk_modulus"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=77, column=-1}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "reference_strain": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e0c37c0>",
+                                                        "description": "Reference strain subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "reference_strain"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "reference_stress": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e0c3670>",
+                                                        "description": "Reference stress subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "reference_stress"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "shear_modulus": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e0c3490>",
+                                                        "description": "Shear modulus subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "shear_modulus"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=78, column=-1}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "db_auxiliary_field": {
+                                        "name": "simpledb",
+                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e09bae0> >",
+                                        "description": "Database for physical property parameters.",
+                                        "setFrom": "{imported} via {file='heterogeneous_greensfxn.cfg', line=69, column=-1}",
+                                        "aliases": [
+                                            "simpledb",
+                                            "db_auxiliary_field"
+                                        ],
+                                        "properties": {
+                                            "description": {
+                                                "value": "Material properties from velocity model",
+                                                "type": "str",
+                                                "description": "Description for database.",
+                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=70, column=-1}"
+                                            },
+                                            "query_type": {
+                                                "value": "linear",
+                                                "type": "str",
+                                                "description": "Type of query to perform.",
+                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=72, column=-1}"
+                                            }
+                                        },
+                                        "components": {
+                                            "iohandler": {
+                                                "name": "simpleioascii",
+                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e09b0c0> >",
+                                                "description": "I/O handler for database.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "simpleioascii",
+                                                    "iohandler"
+                                                ],
+                                                "properties": {
+                                                    "filename": {
+                                                        "value": "nz_sdb_20m_lwd.spatialdb",
+                                                        "type": "str",
+                                                        "description": "Name of database file.",
+                                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=71, column=-1}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            }
+                                        }
+                                    },
+                                    "derived_subfields": {
+                                        "name": "derived_subfields",
+                                        "class": "<pylith.materials.DerivedSubfieldsElasticity.DerivedSubfieldsElasticity object at 0x11dfe0130>",
+                                        "description": "Discretization of derived subfields.",
+                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
+                                        "aliases": [
+                                            "derived_subfields"
+                                        ],
+                                        "properties": {},
+                                        "components": {
+                                            "cauchy_strain": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe0460>",
+                                                "description": "Cauchy strain subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "cauchy_strain"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "0",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            },
+                                            "cauchy_stress": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe02b0>",
+                                                "description": "Cauchy stress subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "cauchy_stress"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "0",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            }
+                                        }
+                                    },
+                                    "observers": {
+                                        "name": "singlephysicsobserver",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e0761d0>",
+                                        "description": "Observers (e.g., output).",
+                                        "setFrom": "{default}",
+                                        "aliases": [
+                                            "singlephysicsobserver",
+                                            "observers"
+                                        ],
+                                        "properties": {},
+                                        "components": {
+                                            "observer": {
+                                                "name": "outputphysics",
+                                                "class": "<pylith.meshio.OutputPhysics.OutputPhysics;  >",
+                                                "description": "Observer of subject.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "outputphysics",
+                                                    "observer"
+                                                ],
+                                                "properties": {
+                                                    "data_fields": {
+                                                        "value": "['all']",
+                                                        "type": "list",
+                                                        "description": "Names of solution, auxiliary, and derived subfields to include in data output.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "info_fields": {
+                                                        "value": "['all']",
+                                                        "type": "list",
+                                                        "description": "Names of auxiliary subfields to include in info output.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "output_basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Basis order for output.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {
+                                                    "trigger": {
+                                                        "name": "outputtriggerstep",
+                                                        "class": "<pylith.meshio.OutputTriggerStep.OutputTriggerStep;  >",
+                                                        "description": "Trigger defining how often output is written.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "outputtriggerstep",
+                                                            "trigger"
+                                                        ],
+                                                        "properties": {
+                                                            "num_skip": {
+                                                                "value": "0",
+                                                                "type": "int",
+                                                                "description": "Number of solution steps to skip between writes (0 means write every time step).",
+                                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=74, column=-1}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "writer": {
+                                                        "name": "datawriterhdf5",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e0c0d50> >",
+                                                        "description": "Writer for data.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "datawriterhdf5",
+                                                            "writer"
+                                                        ],
+                                                        "properties": {
+                                                            "filename": {
+                                                                "value": "",
+                                                                "type": "str",
+                                                                "description": "Name of HDF5 file.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "u1519_mat": {
+                                "name": "elasticity",
+                                "class": "<pylith.materials.Elasticity.Elasticity;  >",
+                                "description": "No description available.",
+                                "setFrom": "{default}",
+                                "aliases": [
+                                    "elasticity",
+                                    "u1519_mat"
+                                ],
+                                "properties": {
+                                    "description": {
+                                        "value": "Material properties at U1519",
+                                        "type": "str",
+                                        "description": "Descriptive label for material.",
+                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=82, column=-1}"
+                                    },
+                                    "label": {
+                                        "value": "material-id",
+                                        "type": "str",
+                                        "description": "Name of label for material. Currently only 'material-id' is allowed.",
+                                        "setFrom": "{default}"
+                                    },
+                                    "label_value": {
+                                        "value": "3",
+                                        "type": "int",
+                                        "description": "Value of label for material.",
+                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=83, column=-1}"
+                                    },
+                                    "use_body_force": {
+                                        "value": "False",
+                                        "type": "bool",
+                                        "description": "Include body force term in elasticity equation.",
+                                        "setFrom": "{default}"
+                                    }
+                                },
+                                "components": {
+                                    "auxiliary_subfields": {
+                                        "name": "auxiliary_subfields",
+                                        "class": "<pylith.materials.AuxSubfieldsElasticity.AuxSubfieldsElasticity object at 0x11dfe0700>",
+                                        "description": "Discretization information for auxiliary subfields.",
+                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
+                                        "aliases": [
+                                            "auxiliary_subfields"
+                                        ],
+                                        "properties": {},
+                                        "components": {
+                                            "body_force": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e1104c0>",
+                                                "description": "Body force subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "body_force"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            },
+                                            "density": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e110370>",
+                                                "description": "Density subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "density"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=92, column=-1}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            },
+                                            "gravitational_acceleration": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e110610>",
+                                                "description": "Gravitational acceleration subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "gravitational_acceleration"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            }
+                                        }
+                                    },
+                                    "bulk_rheology": {
+                                        "name": "isotropiclinearelasticity",
+                                        "class": "<pylith.materials.IsotropicLinearElasticity.IsotropicLinearElasticity;  >",
+                                        "description": "Bulk rheology for elastic material.",
+                                        "setFrom": "{default}",
+                                        "aliases": [
+                                            "isotropiclinearelasticity",
+                                            "bulk_rheology"
+                                        ],
+                                        "properties": {
+                                            "use_reference_state": {
+                                                "value": "False",
+                                                "type": "bool",
+                                                "description": "Use reference stress/strain state.",
+                                                "setFrom": "{default}"
+                                            }
+                                        },
+                                        "components": {
+                                            "auxiliary_subfields": {
+                                                "name": "auxiliary_subfields",
+                                                "class": "<pylith.materials.AuxSubfieldsIsotropicLinearElasticity.AuxSubfieldsIsotropicLinearElasticity object at 0x11e0efaf0>",
+                                                "description": "Discretization information for physical properties and state variables.",
+                                                "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
+                                                "aliases": [
+                                                    "auxiliary_subfields"
+                                                ],
+                                                "properties": {},
+                                                "components": {
+                                                    "bulk_modulus": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e15cd30>",
+                                                        "description": "Bulk modulus subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "bulk_modulus"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=93, column=-1}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "reference_strain": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e15cfd0>",
+                                                        "description": "Reference strain subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "reference_strain"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "reference_stress": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e15ce80>",
+                                                        "description": "Reference stress subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "reference_stress"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "shear_modulus": {
+                                                        "name": "subfield",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e15cca0>",
+                                                        "description": "Shear modulus subfield.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "subfield",
+                                                            "shear_modulus"
+                                                        ],
+                                                        "properties": {
+                                                            "basis_order": {
+                                                                "value": "1",
+                                                                "type": "int",
+                                                                "description": "Order of basis functions.",
+                                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=94, column=-1}"
+                                                            },
+                                                            "cell_basis": {
+                                                                "value": "default",
+                                                                "type": "str",
+                                                                "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "dimension": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "finite_element_space": {
+                                                                "value": "polynomial",
+                                                                "type": "str",
+                                                                "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "is_basis_continous": {
+                                                                "value": "True",
+                                                                "type": "bool",
+                                                                "description": "Is basis continuous?",
+                                                                "setFrom": "{default}"
+                                                            },
+                                                            "quadrature_order": {
+                                                                "value": "-1",
+                                                                "type": "int",
+                                                                "description": "Order of numerical quadrature.",
+                                                                "setFrom": "{default}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "db_auxiliary_field": {
+                                        "name": "simpledb",
+                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e13d2f0> >",
+                                        "description": "Database for physical property parameters.",
+                                        "setFrom": "{imported} via {file='heterogeneous_greensfxn.cfg', line=85, column=-1}",
+                                        "aliases": [
+                                            "simpledb",
+                                            "db_auxiliary_field"
+                                        ],
+                                        "properties": {
+                                            "description": {
+                                                "value": "Material properties from velocity model",
+                                                "type": "str",
+                                                "description": "Description for database.",
+                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=86, column=-1}"
+                                            },
+                                            "query_type": {
+                                                "value": "linear",
+                                                "type": "str",
+                                                "description": "Type of query to perform.",
+                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=88, column=-1}"
+                                            }
+                                        },
+                                        "components": {
+                                            "iohandler": {
+                                                "name": "simpleioascii",
+                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e13c8d0> >",
+                                                "description": "I/O handler for database.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "simpleioascii",
+                                                    "iohandler"
+                                                ],
+                                                "properties": {
+                                                    "filename": {
+                                                        "value": "nz_sdb_20m_lwd.spatialdb",
+                                                        "type": "str",
+                                                        "description": "Name of database file.",
+                                                        "setFrom": "{file='heterogeneous_greensfxn.cfg', line=87, column=-1}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            }
+                                        }
+                                    },
+                                    "derived_subfields": {
+                                        "name": "derived_subfields",
+                                        "class": "<pylith.materials.DerivedSubfieldsElasticity.DerivedSubfieldsElasticity object at 0x11dfe0820>",
+                                        "description": "Discretization of derived subfields.",
+                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
+                                        "aliases": [
+                                            "derived_subfields"
+                                        ],
+                                        "properties": {},
+                                        "components": {
+                                            "cauchy_strain": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe0b50>",
+                                                "description": "Cauchy strain subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "cauchy_strain"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "0",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            },
+                                            "cauchy_stress": {
+                                                "name": "subfield",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11dfe09a0>",
+                                                "description": "Cauchy stress subfield.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "subfield",
+                                                    "cauchy_stress"
+                                                ],
+                                                "properties": {
+                                                    "basis_order": {
+                                                        "value": "0",
+                                                        "type": "int",
+                                                        "description": "Order of basis functions.",
+                                                        "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}"
+                                                    },
+                                                    "cell_basis": {
+                                                        "value": "default",
+                                                        "type": "str",
+                                                        "description": "Type of cell basis functions (simplex, tensor, or default). Default is to use type matching cell type.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "dimension": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Topological dimension associated with subfield (=-1 will use dimension of domain).",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "finite_element_space": {
+                                                        "value": "polynomial",
+                                                        "type": "str",
+                                                        "description": "Finite-element space (polynomial or point). Point space corresponds to delta functions at quadrature points.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "is_basis_continous": {
+                                                        "value": "True",
+                                                        "type": "bool",
+                                                        "description": "Is basis continuous?",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "quadrature_order": {
+                                                        "value": "-1",
+                                                        "type": "int",
+                                                        "description": "Order of numerical quadrature.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {}
+                                            }
+                                        }
+                                    },
+                                    "observers": {
+                                        "name": "singlephysicsobserver",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e0ef9a0>",
+                                        "description": "Observers (e.g., output).",
+                                        "setFrom": "{default}",
+                                        "aliases": [
+                                            "singlephysicsobserver",
+                                            "observers"
+                                        ],
+                                        "properties": {},
+                                        "components": {
+                                            "observer": {
+                                                "name": "outputphysics",
+                                                "class": "<pylith.meshio.OutputPhysics.OutputPhysics;  >",
+                                                "description": "Observer of subject.",
+                                                "setFrom": "{default}",
+                                                "aliases": [
+                                                    "outputphysics",
+                                                    "observer"
+                                                ],
+                                                "properties": {
+                                                    "data_fields": {
+                                                        "value": "['all']",
+                                                        "type": "list",
+                                                        "description": "Names of solution, auxiliary, and derived subfields to include in data output.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "info_fields": {
+                                                        "value": "['all']",
+                                                        "type": "list",
+                                                        "description": "Names of auxiliary subfields to include in info output.",
+                                                        "setFrom": "{default}"
+                                                    },
+                                                    "output_basis_order": {
+                                                        "value": "1",
+                                                        "type": "int",
+                                                        "description": "Basis order for output.",
+                                                        "setFrom": "{default}"
+                                                    }
+                                                },
+                                                "components": {
+                                                    "trigger": {
+                                                        "name": "outputtriggerstep",
+                                                        "class": "<pylith.meshio.OutputTriggerStep.OutputTriggerStep;  >",
+                                                        "description": "Trigger defining how often output is written.",
+                                                        "setFrom": "{default}",
+                                                        "aliases": [
+                                                            "outputtriggerstep",
+                                                            "trigger"
+                                                        ],
+                                                        "properties": {
+                                                            "num_skip": {
+                                                                "value": "0",
+                                                                "type": "int",
+                                                                "description": "Number of solution steps to skip between writes (0 means write every time step).",
+                                                                "setFrom": "{file='heterogeneous_greensfxn.cfg', line=90, column=-1}"
+                                                            }
+                                                        },
+                                                        "components": {}
+                                                    },
+                                                    "writer": {
+                                                        "name": "datawriterhdf5",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e13e520> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2905,7 +4231,7 @@
                     },
                     "normalizer": {
                         "name": "nondimelasticquasistatic",
-                        "class": "<spatialdata.units.NondimElasticQuasistatic.NondimElasticQuasistatic; proxy of <Swig Object of type 'spatialdata::units::Nondimensional *' at 0x11e214630> >",
+                        "class": "<spatialdata.units.NondimElasticQuasistatic.NondimElasticQuasistatic; proxy of <Swig Object of type 'spatialdata::units::Nondimensional *' at 0x11dfa3a50> >",
                         "description": "Nondimensionalizer for problem.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -2936,7 +4262,7 @@
                     },
                     "petsc_defaults": {
                         "name": "petscdefaults",
-                        "class": "<pylith.utils.PetscDefaults.PetscDefaults object at 0x11b2ca830>",
+                        "class": "<pylith.utils.PetscDefaults.PetscDefaults object at 0x11de2afb0>",
                         "description": "Flags controlling which default PETSc options to use.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -3004,7 +4330,7 @@
                     },
                     "solution": {
                         "name": "solution",
-                        "class": "<pylith.problems.SolnDispLagrange.Solution object at 0x11b2cb070>",
+                        "class": "<pylith.problems.SolnDispLagrange.Solution object at 0x11de2b550>",
                         "description": "Solution field for problem.",
                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=52, column=-1}",
                         "aliases": [
@@ -3015,7 +4341,7 @@
                         "components": {
                             "subfields": {
                                 "name": "solndisplagrange",
-                                "class": "<pylith.problems.SolnDispLagrange.SolnDispLagrange object at 0x11b350c70>",
+                                "class": "<pylith.problems.SolnDispLagrange.SolnDispLagrange object at 0x11dfa00d0>",
                                 "description": "Subfields in solution.",
                                 "setFrom": "{default}",
                                 "aliases": [
@@ -3026,7 +4352,7 @@
                                 "components": {
                                     "displacement": {
                                         "name": "subfielddisplacement",
-                                        "class": "<pylith.problems.SubfieldDisplacement.SubfieldDisplacement object at 0x11b351930>",
+                                        "class": "<pylith.problems.SubfieldDisplacement.SubfieldDisplacement object at 0x11dfa0d90>",
                                         "description": "Displacement subfield.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3081,7 +4407,7 @@
                                     },
                                     "lagrange_multiplier_fault": {
                                         "name": "subfieldlagrangefault",
-                                        "class": "<pylith.problems.SubfieldLagrangeFault.SubfieldLagrangeFault object at 0x11b3520e0>",
+                                        "class": "<pylith.problems.SubfieldLagrangeFault.SubfieldLagrangeFault object at 0x11dfa1540>",
                                         "description": "Fault Lagrange multiplier subfield.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3140,7 +4466,7 @@
                     },
                     "solution_observers": {
                         "name": "solution_observers",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11b2d81c0>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11de346a0>",
                         "description": "Observers (e.g., output) for solution.",
                         "setFrom": "{built-in} via {file='heterogeneous_greensfxn.cfg', line=112, column=-1}",
                         "aliases": [
@@ -3193,7 +4519,7 @@
                                     },
                                     "writer": {
                                         "name": "datawriterhdf5",
-                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e4781e0> >",
+                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e330750> >",
                                         "description": "Writer for data.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3244,7 +4570,7 @@
                                 "components": {
                                     "reader": {
                                         "name": "pointslist",
-                                        "class": "<pylith.meshio.PointsList.PointsList object at 0x11e4a4430>",
+                                        "class": "<pylith.meshio.PointsList.PointsList object at 0x11e3589a0>",
                                         "description": "Reader for points list.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3274,7 +4600,7 @@
                                         "components": {
                                             "coordsys": {
                                                 "name": "cscart",
-                                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11e4a7090> >",
+                                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11e35b600> >",
                                                 "description": "Coordinate system associated with points.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -3320,7 +4646,7 @@
                                     },
                                     "writer": {
                                         "name": "datawriterhdf5",
-                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e4a4360> >",
+                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e3588d0> >",
                                         "description": "Writer for data.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3396,7 +4722,7 @@
                                     },
                                     "writer": {
                                         "name": "datawriterhdf5",
-                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e47a280> >",
+                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e3327f0> >",
                                         "description": "Writer for data.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3421,7 +4747,7 @@
             },
             "scheduler": {
                 "name": "scheduler-none",
-                "class": "<pythia.pyre.schedulers.SchedulerNone.SchedulerNone object at 0x11b1a9e10>",
+                "class": "<pythia.pyre.schedulers.SchedulerNone.SchedulerNone object at 0x11af7d210>",
                 "description": "No description available.",
                 "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/schedulers/none.odb'} via {default}",
                 "aliases": [

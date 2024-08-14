@@ -185,6 +185,18 @@ U1519_density_depth = x_range
 d = {'depth': U1518_vs_depth, 'vs': U1518_vs, 'vp': U1518_vp, 'density': U1518_density}
 
 U1518_data_df = pd.DataFrame(data=d)
+
+## Append a few depth points to the beginning to pad mesh boundary
+
+data = []
+# always inserting new rows at the first position - last row will be always on top    
+data.insert(0, {'depth': -100.0, 'vs': 0.496940, 'vp': 1.781069, 'density':1.876504})
+U1518_data_df = pd.concat([pd.DataFrame(data), U1518_data_df], ignore_index=True)
+
+ind = np.arange(1,51).tolist()
+U1518_data_df = U1518_data_df.drop(index=ind)
+U1518_data_df = U1518_data_df.reset_index(drop=True)
+
 U1518_data_df
 
 ## ---------- Generate data for U1519 ---------- ##
@@ -193,13 +205,24 @@ U1518_data_df
 d = {'depth': U1519_vs_depth, 'vs': U1519_vs, 'vp': U1519_vp, 'density': U1519_density}
 
 U1519_data_df = pd.DataFrame(data=d)
+
+## Append a few depth points to the beginning to pad mesh boundary
+
+data = []
+# always inserting new rows at the first position   
+data.insert(0, {'depth': -100.0, 'vs': 0.120449, 'vp': 1.658870, 'density':1.912369})
+U1519_data_df = pd.concat([pd.DataFrame(data), U1519_data_df], ignore_index=True)
+
+U1519_data_df = U1519_data_df.drop(index=ind)
+U1519_data_df = U1519_data_df.reset_index(drop=True)
+
 U1519_data_df
 
 ## --------- Generat x,y data for points using topography and depth --------- ##
 
 # Find index nearest boreholes and extend by 5 data points (values are depths of points nearest borehole seafloor)
-end_idx = np.where(topo == -2.68720920e+03)[0][0] + 5
-start_idx = np.where(topo == -1.00629570e+03)[0][0] - 5
+end_idx = np.where(topo == -2.68720920e+03)[0][0] + 3
+start_idx = np.where(topo == -1.00629570e+03)[0][0] - 3
 
 x_range = np.linspace(topo[start_idx,0], topo[end_idx,0], 200)
 
@@ -245,7 +268,7 @@ data = pd.DataFrame(d)
 
 # Parameters
 sample_size = 199
-skip_size = sample_size * 100
+skip_size = sample_size * 250
 
 # Create an empty list to hold the sampled data
 sampled_data = []

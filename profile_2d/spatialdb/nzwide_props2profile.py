@@ -125,6 +125,31 @@ combined_points = np.vstack((points2D, new_points))
 combined_vp = np.hstack((vp, new_vp))
 combined_vs = np.hstack((vs, new_vs))
 combined_density = np.hstack((density, new_density))
+
+# delete points from background db that are within lwd data
+index = []
+index.insert(0,np.where((combined_points[:,0] == -5.000000e+03) & (combined_points[:,1] == -3.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -7.500000e+03) & (combined_points[:,1] == -3.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -1.000000e+04) & (combined_points[:,1] == -3.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -1.000000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -1.250000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -1.500000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -1.750000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -2.000000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -2.250000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -2.500000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -2.750000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -3.000000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -3.250000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+index.insert(0,np.where((combined_points[:,0] == -3.500000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
+print(index)
+
+combined_points = np.delete(combined_points,index, axis=0)
+combined_vp = np.delete(combined_vp,index)
+combined_vs = np.delete(combined_vs,index)
+combined_density = np.delete(combined_density,index)
+#print(combined_points)
+
 combined_numPoints = combined_points.shape[0]
 
 # Create new connectivity for writing xmf file
