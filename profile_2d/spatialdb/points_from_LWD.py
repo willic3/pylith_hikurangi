@@ -268,7 +268,7 @@ data = pd.DataFrame(d)
 
 # Parameters
 sample_size = 199
-skip_size = sample_size * 250
+skip_size = sample_size * 100
 
 # Create an empty list to hold the sampled data
 sampled_data = []
@@ -282,4 +282,4 @@ for start in range(0, len(data), sample_size + skip_size):
 sampled_df = pd.concat(sampled_data, ignore_index=True)
 
 ## -------- Save as csv ------- ##
-sampled_df.to_csv('downsampled_20m_lwd.csv', index=False) 
+sampled_df.to_csv('downsampled_20m_lwd.csv', index=False)
