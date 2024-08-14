@@ -41,7 +41,7 @@ class App(GenerateMesh):
             "default": "tri",
             "choices": ["tri"],
             }
-        self.filename = "nz_mesh_borehole.msh"
+        self.filename = "material_testing_v2.msh"
 
     def _create_points_from_file(self, filename, col1, col2):
         coordinates = np.loadtxt(filename, skiprows=1)
@@ -123,6 +123,46 @@ class App(GenerateMesh):
         self.p_U1518 = gmsh.model.geo.add_point(-5541.6171, -2849.1, 0.0)
         self.p_U1519 = gmsh.model.geo.add_point(-34030.0862, -1264.0, 0.0)
 
+        ## Add points to define box around boreholes
+        # U1518 -----------
+        self.p_U1518_ul = gmsh.model.geo.add_point(-5542.1171, -2848.6, 0.0)
+        self.p_U1518_ur = gmsh.model.geo.add_point(-5541.1171, -2848.6, 0.0)
+        self.p_U1518_bl = gmsh.model.geo.add_point(-5542.1171, -2849.6, 0.0)
+        self.p_U1518_br = gmsh.model.geo.add_point(-5541.1171, -2849.6, 0.0)
+        self.c_U1518_west = gmsh.model.geo.add_polyline([self.p_U1518_ul, self.p_U1518_bl])
+        self.c_U1518_bot = gmsh.model.geo.add_polyline([self.p_U1518_bl,self.p_U1518_br])
+        self.c_U1518_east = gmsh.model.geo.add_polyline([self.p_U1518_br, self.p_U1518_ur])
+        self.c_U1518_top = gmsh.model.geo.add_polyline([self.p_U1518_ur, self.p_U1518_ul])
+
+        # U1519 -----------
+        self.p_U1519_ul = gmsh.model.geo.add_point(-34030.5862, -1263.5, 0.0)
+        self.p_U1519_ur = gmsh.model.geo.add_point(-34029.5862, -1263.5, 0.0)
+        self.p_U1519_bl = gmsh.model.geo.add_point(-34030.5862, -1264.5, 0.0)
+        self.p_U1519_br = gmsh.model.geo.add_point(-34029.5862, -1264.5, 0.0)
+        self.c_U1519_west = gmsh.model.geo.add_polyline([self.p_U1519_ul, self.p_U1519_bl])
+        self.c_U1519_bot = gmsh.model.geo.add_polyline([self.p_U1519_bl,self.p_U1519_br])
+        self.c_U1519_east = gmsh.model.geo.add_polyline([self.p_U1519_br, self.p_U1519_ur])
+        self.c_U1519_top = gmsh.model.geo.add_polyline([self.p_U1519_ur, self.p_U1519_ul])
+
+        ## Create surface for borehole boxes
+        # U1518 -----------
+        loop = gmsh.model.geo.add_curve_loop([
+            self.c_U1518_west,
+            self.c_U1518_bot,
+            self.c_U1518_east,
+            self.c_U1518_top,
+            ])
+        self.s_U1518 = gmsh.model.geo.add_plane_surface([loop])
+
+        # U1518 -----------
+        loop = gmsh.model.geo.add_curve_loop([
+            self.c_U1519_west,
+            self.c_U1519_bot,
+            self.c_U1519_east,
+            self.c_U1519_top,
+            ])
+        self.s_U1519 = gmsh.model.geo.add_plane_surface([loop])
+
         gmsh.model.geo.synchronize()
 
     def mark(self):
@@ -133,11 +173,17 @@ class App(GenerateMesh):
         # Create material for the whole mesh.
         materials = (
             MaterialGroup(tag=1, entities=[self.s_slab]),
-            #MaterialGroup(tag=2, entities=[self.p_U1518]),
-            #MaterialGroup(tag=3, entities=[self.p_U1519]),
+            MaterialGroup(tag=2, entities=[self.s_U1518]),
+            MaterialGroup(tag=3, entities=[self.s_U1519]),
         )
         for material in materials:
             material.create_physical_group()
+
+        ## The code below creates empty physical groups, but I can't assign mesh elements to them after the fact
+        # gmsh.model.addPhysicalGroup(0, [], 2)
+        # gmsh.model.setPhysicalName(0, 2, "physical group U1518")
+        # gmsh.model.addPhysicalGroup(0, [], 3)
+        # gmsh.model.setPhysicalName(0, 3, "physical group U1519")
 
         # Create physical groups for the boundaries and the fault.
         vertex_groups = (
@@ -166,7 +212,7 @@ class App(GenerateMesh):
         observatory_distance = gmsh.model.mesh.field.add("Distance")
         gmsh.model.mesh.field.setNumber(fault_distance, "Sampling", 200)
         gmsh.model.mesh.field.setNumbers(fault_distance, "CurvesList", [self.c_slab])
-        gmsh.model.mesh.field.setNumbers(observatory_distance, "PointsList", [602,603])
+        gmsh.model.mesh.field.setNumbers(observatory_distance, "PointsList", [self.p_U1518,self.p_U1519])
 
         # Second, we setup a field `field_size`, which is the mathematical expression
         # for the cell size as a function of the cell size on the fault, the distance from
@@ -202,9 +248,6 @@ class App(GenerateMesh):
         # # Get all 2D elements
         # elementTag, elementType, nodeTags, u, v, w = gmsh.model.mesh.getElementByCoordinates(-5541.6171,-2849.1,0,dim=2)
         # print("Element tag =",elementTag,"Element type",elementType,", Node tags=",nodeTags)
-        # new_physical_group = gmsh.model.addPhysicalGroup(2, [elementTag])
-        # gmsh.model.setPhysicalName(2, new_physical_group, "NewMaterial")
-        # gmsh.model.mesh.setPhysicalGroups(2, [[new_physical_group, elementTag]])
 
         
 
