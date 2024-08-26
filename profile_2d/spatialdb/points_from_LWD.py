@@ -224,7 +224,7 @@ U1519_data_df
 end_idx = np.where(topo == -2.68720920e+03)[0][0] + 3
 start_idx = np.where(topo == -1.00629570e+03)[0][0] - 3
 
-x_range = np.linspace(topo[start_idx,0], topo[end_idx,0], 200)
+x_range = np.linspace(topo[start_idx,0], topo[end_idx,0], 50)
 
 # Interpolate y values so that vector is the same length as x values
 y_vals_for_x_range = topo[start_idx:end_idx+1,:]

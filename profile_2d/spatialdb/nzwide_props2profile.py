@@ -142,7 +142,6 @@ index.insert(0,np.where((combined_points[:,0] == -2.750000e+04) & (combined_poin
 index.insert(0,np.where((combined_points[:,0] == -3.000000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
 index.insert(0,np.where((combined_points[:,0] == -3.250000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
 index.insert(0,np.where((combined_points[:,0] == -3.500000e+04) & (combined_points[:,1] == -1.000000e+03))[0][0])
-print(index)
 
 combined_points = np.delete(combined_points,index, axis=0)
 combined_vp = np.delete(combined_vp,index)
