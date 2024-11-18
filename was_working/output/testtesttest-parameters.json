@@ -1,9 +1,9 @@
 {
     "platform": {
-        "hostname": "IG-A63344.local",
+        "hostname": "IG-A63344.lan",
         "os": "Darwin",
         "kernel": "23.6.0",
-        "version": "Darwin Kernel Version 23.6.0: Mon Jul 29 21:14:30 PDT 2024; root:xnu-10063.141.2~1/RELEASE_ARM64_T6000",
+        "version": "Darwin Kernel Version 23.6.0: Thu Sep 12 23:35:29 PDT 2024; root:xnu-10063.141.1.701.1~1/RELEASE_ARM64_T6000",
         "machine": "x86_64",
         "processor": "i386"
     },
@@ -66,10 +66,10 @@
             "version": "9.2.0"
         }
     },
-    "timestamp": "2024-08-26T09:24:43.866715",
+    "timestamp": "2024-11-16T13:55:11.071066",
     "application": {
         "name": "pylithapp",
-        "class": "<pylith.apps.PyLithApp.PyLithApp object at 0x10d3e0a00>",
+        "class": "<pylith.apps.PyLithApp.PyLithApp object at 0x10efb4be0>",
         "properties": {
             "include-citations": {
                 "value": "False",
@@ -99,7 +99,7 @@
         "components": {
             "dump_parameters": {
                 "name": "dumpparamters",
-                "class": "<pylith.utils.DumpParametersJson.DumpParametersJson object at 0x119ae9a80>",
+                "class": "<pylith.utils.DumpParametersJson.DumpParametersJson object at 0x11b646d70>",
                 "description": "Dump parameters used and version information to file.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -130,7 +130,7 @@
             },
             "job": {
                 "name": "job",
-                "class": "<pythia.pyre.schedulers.Job.Job object at 0x119ac3f70>",
+                "class": "<pythia.pyre.schedulers.Job.Job object at 0x11b61cd00>",
                 "description": "No description available.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -208,7 +208,7 @@
             },
             "launcher": {
                 "name": "mpich",
-                "class": "<pythia.mpi.LauncherMPICH.LauncherMPICH object at 0x119aea2c0>",
+                "class": "<pythia.mpi.LauncherMPICH.LauncherMPICH object at 0x11b654280>",
                 "description": "No description available.",
                 "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/mpi/launchers/mpich.odb'} via {default}",
                 "aliases": [
@@ -269,7 +269,7 @@
             },
             "mesh_generator": {
                 "name": "meshimporter",
-                "class": "<pylith.topology.MeshImporter.MeshImporter object at 0x119ae9330>",
+                "class": "<pylith.topology.MeshImporter.MeshImporter object at 0x11b646080>",
                 "description": "Generates or imports the computational mesh.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -323,7 +323,7 @@
                         "components": {
                             "data_writer": {
                                 "name": "datawriterhdf5",
-                                "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11c8e44b0> >",
+                                "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e4ce7c0> >",
                                 "description": "Data writer for partition information.",
                                 "setFrom": "{default}",
                                 "aliases": [
@@ -368,7 +368,7 @@
                         "components": {
                             "coordsys": {
                                 "name": "cscart",
-                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x119b4d8c0> >",
+                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11b6af8a0> >",
                                 "description": "Coordinate system associated with mesh.",
                                 "setFrom": "{default}",
                                 "aliases": [
@@ -395,7 +395,7 @@
                     },
                     "refiner": {
                         "name": "refiner",
-                        "class": "<pylith.topology.MeshRefiner.MeshRefiner object at 0x119b2fe80>",
+                        "class": "<pylith.topology.MeshRefiner.MeshRefiner object at 0x11b6adea0>",
                         "description": "Performs uniform global mesh refinement after distribution among processes (default is no refinement).",
                         "setFrom": "{default}",
                         "aliases": [
@@ -408,7 +408,7 @@
             },
             "metadata": {
                 "name": "metadata",
-                "class": "<pylith.utils.SimulationMetadata.SimulationMetadata object at 0x119ac3160>",
+                "class": "<pylith.utils.SimulationMetadata.SimulationMetadata object at 0x11b647280>",
                 "description": "Simulation metadata.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -468,7 +468,7 @@
             },
             "petsc": {
                 "name": "petsc",
-                "class": "<pylith.utils.PetscManager.PetscManager object at 0x119ac38b0>",
+                "class": "<pylith.utils.PetscManager.PetscManager object at 0x11b6479d0>",
                 "description": "Manager for PETSc options.",
                 "setFrom": "{default}",
                 "aliases": [
@@ -515,7 +515,7 @@
                 "components": {
                     "bc": {
                         "name": "bc",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11c945b10>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11e535d80>",
                         "description": "Boundary conditions.",
                         "setFrom": "{built-in} via {file='./pylithapp.cfg', line=100, column=-1}",
                         "aliases": [
@@ -579,7 +579,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11cbf8c70>",
+                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e734ee0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -589,7 +589,7 @@
                                         "components": {
                                             "initial_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cbfbd60>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e737fd0>",
                                                 "description": "Initial amplitude, f_0(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -638,7 +638,7 @@
                                             },
                                             "rate_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cbfbeb0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e764160>",
                                                 "description": "Rate amplitude, dot{f}_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -687,7 +687,7 @@
                                             },
                                             "rate_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc24040>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e7642b0>",
                                                 "description": "Rate starting time, t_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -736,7 +736,7 @@
                                             },
                                             "time_history_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc24190>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e764400>",
                                                 "description": "Time history amplitude, f_2(x). subfield",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -785,7 +785,7 @@
                                             },
                                             "time_history_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc242e0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e764550>",
                                                 "description": "Time history starting time, t_2(s), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -836,7 +836,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "zerodb",
-                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11cc50900> >",
+                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e78cb70> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=124, column=-1}",
                                         "aliases": [
@@ -873,7 +873,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11cbf9f30>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e7361d0>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -885,7 +885,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11cbfb490>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e737700>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -945,7 +945,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cc51aa0> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e78dd10> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -968,7 +968,7 @@
                                     },
                                     "time_history": {
                                         "name": "nullcomponent",
-                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11cbfb5e0>",
+                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e737850>",
                                         "description": "Time history with normalized amplitude.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1036,7 +1036,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11cbf95a0>",
+                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e735810>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -1046,7 +1046,7 @@
                                         "components": {
                                             "initial_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc79000>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e7b9270>",
                                                 "description": "Initial amplitude, f_0(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1095,7 +1095,7 @@
                                             },
                                             "rate_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc796f0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e7b9960>",
                                                 "description": "Rate amplitude, dot{f}_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1144,7 +1144,7 @@
                                             },
                                             "rate_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc79840>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e7b9ab0>",
                                                 "description": "Rate starting time, t_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1193,7 +1193,7 @@
                                             },
                                             "time_history_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc79990>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e7b9c00>",
                                                 "description": "Time history amplitude, f_2(x). subfield",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1242,7 +1242,7 @@
                                             },
                                             "time_history_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cc79ae0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e7b9d50>",
                                                 "description": "Time history starting time, t_2(s), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1293,7 +1293,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "zerodb",
-                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11cc95e60> >",
+                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e7d20d0> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=117, column=-1}",
                                         "aliases": [
@@ -1330,7 +1330,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11cc78820>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e7b8a90>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1342,7 +1342,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11cc786d0>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e7b8940>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1402,7 +1402,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cc96ee0> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e7d3150> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -1425,7 +1425,7 @@
                                     },
                                     "time_history": {
                                         "name": "nullcomponent",
-                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11cc78e20>",
+                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e7b9090>",
                                         "description": "Time history with normalized amplitude.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1493,7 +1493,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11cbf9960>",
+                                        "class": "<pylith.bc.AuxSubfieldsTimeDependent.AuxSubfieldsTimeDependent object at 0x11e735de0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -1503,7 +1503,7 @@
                                         "components": {
                                             "initial_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11ccc6200>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e802470>",
                                                 "description": "Initial amplitude, f_0(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1552,7 +1552,7 @@
                                             },
                                             "rate_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11ccc68f0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e802b60>",
                                                 "description": "Rate amplitude, dot{f}_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1601,7 +1601,7 @@
                                             },
                                             "rate_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11ccc6a40>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e802cb0>",
                                                 "description": "Rate starting time, t_1(x), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1650,7 +1650,7 @@
                                             },
                                             "time_history_amplitude": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11ccc6b90>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e802e00>",
                                                 "description": "Time history amplitude, f_2(x). subfield",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1699,7 +1699,7 @@
                                             },
                                             "time_history_start_time": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11ccc6ce0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e802f50>",
                                                 "description": "Time history starting time, t_2(s), subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -1750,7 +1750,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "zerodb",
-                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11ccef060> >",
+                                        "class": "<pylith.bc.ZeroDB.ZeroDB; proxy of <Swig Object of type 'spatialdata::spatialdb::UniformDB *' at 0x11e8272d0> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=131, column=-1}",
                                         "aliases": [
@@ -1787,7 +1787,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11ccc5a20>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e801c90>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1799,7 +1799,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11ccc58d0>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e801b40>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1859,7 +1859,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cd1c120> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e858390> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -1882,7 +1882,7 @@
                                     },
                                     "time_history": {
                                         "name": "nullcomponent",
-                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11ccc6020>",
+                                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e802290>",
                                         "description": "Time history with normalized amplitude.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -1898,7 +1898,7 @@
                     },
                     "defaults": {
                         "name": "problem_defaults",
-                        "class": "<pylith.problems.ProblemDefaults.ProblemDefaults object at 0x11c8fa080>",
+                        "class": "<pylith.problems.ProblemDefaults.ProblemDefaults object at 0x11e4ee2f0>",
                         "description": "Default options for problem.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -1935,7 +1935,7 @@
                     },
                     "gravity_field": {
                         "name": "nullcomponent",
-                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11c8f9810>",
+                        "class": "<pylith.utils.NullComponent.NullComponent object at 0x11e4eda80>",
                         "description": "Database used for gravity field.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -1947,7 +1947,7 @@
                     },
                     "interfaces": {
                         "name": "interfaces",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11c90f310>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11e4ff580>",
                         "description": "Interior surfaces with constraints or constitutive models.",
                         "setFrom": "{built-in} via {file='./pylithapp.cfg', line=83, column=-1}",
                         "aliases": [
@@ -2017,7 +2017,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.faults.AuxSubfieldsFault.AuxSubfieldsFault object at 0x11cd38730>",
+                                        "class": "<pylith.faults.AuxSubfieldsFault.AuxSubfieldsFault object at 0x11e8749a0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -2027,7 +2027,7 @@
                                         "components": {
                                             "slip": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cd3a680>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e8768f0>",
                                                 "description": "Slip subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2078,7 +2078,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "simpledb",
-                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11cd715f0> >",
+                                        "class": "<spatialdata.spatialdb.SimpleDB.SimpleDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleDB *' at 0x11e8ad860> >",
                                         "description": "No description available.",
                                         "setFrom": "{imported} via {file='heterogeneous_greensfxn.cfg', line=148, column=-1}",
                                         "aliases": [
@@ -2102,7 +2102,7 @@
                                         "components": {
                                             "iohandler": {
                                                 "name": "simpleioascii",
-                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11cd70c30> >",
+                                                "class": "<spatialdata.spatialdb.SimpleIOAscii.SimpleIOAscii; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleIOAscii *' at 0x11e8acea0> >",
                                                 "description": "I/O handler for database.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2123,7 +2123,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "emptybin",
-                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11cd396f0>",
+                                        "class": "<pylith.utils.EmptyBin.EmptyBin object at 0x11e875960>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -2135,7 +2135,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11cd395a0>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e875810>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -2195,7 +2195,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cd72940> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e8aebb0> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2222,7 +2222,7 @@
                     },
                     "materials": {
                         "name": "materials",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11c90c1f0>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11e4fc460>",
                         "description": "Materials in problem.",
                         "setFrom": "{built-in} via {file='./pylithapp.cfg', line=76, column=-1}",
                         "aliases": [
@@ -2268,7 +2268,7 @@
                                 "components": {
                                     "auxiliary_subfields": {
                                         "name": "auxiliary_subfields",
-                                        "class": "<pylith.materials.AuxSubfieldsElasticity.AuxSubfieldsElasticity object at 0x11c9b9360>",
+                                        "class": "<pylith.materials.AuxSubfieldsElasticity.AuxSubfieldsElasticity object at 0x11e5a95d0>",
                                         "description": "Discretization information for auxiliary subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -2278,7 +2278,7 @@
                                         "components": {
                                             "body_force": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cb66950>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e6a2bc0>",
                                                 "description": "Body force subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2327,7 +2327,7 @@
                                             },
                                             "density": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cb66800>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e6a2a70>",
                                                 "description": "Density subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2376,7 +2376,7 @@
                                             },
                                             "gravitational_acceleration": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11cb66aa0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e6a2d10>",
                                                 "description": "Gravitational acceleration subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2445,7 +2445,7 @@
                                         "components": {
                                             "auxiliary_subfields": {
                                                 "name": "auxiliary_subfields",
-                                                "class": "<pylith.materials.AuxSubfieldsIsotropicLinearElasticity.AuxSubfieldsIsotropicLinearElasticity object at 0x11cb659c0>",
+                                                "class": "<pylith.materials.AuxSubfieldsIsotropicLinearElasticity.AuxSubfieldsIsotropicLinearElasticity object at 0x11e6a1c30>",
                                                 "description": "Discretization information for physical properties and state variables.",
                                                 "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                                 "aliases": [
@@ -2455,7 +2455,7 @@
                                                 "components": {
                                                     "bulk_modulus": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11cbb3a00>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e6efc70>",
                                                         "description": "Bulk modulus subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2504,7 +2504,7 @@
                                                     },
                                                     "reference_strain": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11cbb3ca0>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e6eff10>",
                                                         "description": "Reference strain subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2553,7 +2553,7 @@
                                                     },
                                                     "reference_stress": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11cbb3b50>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e6efdc0>",
                                                         "description": "Reference stress subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2602,7 +2602,7 @@
                                                     },
                                                     "shear_modulus": {
                                                         "name": "subfield",
-                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11cbb3970>",
+                                                        "class": "<pylith.topology.Subfield.Subfield object at 0x11e6efbe0>",
                                                         "description": "Shear modulus subfield.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2655,7 +2655,7 @@
                                     },
                                     "db_auxiliary_field": {
                                         "name": "simplegriddb",
-                                        "class": "<spatialdata.spatialdb.SimpleGridDB.SimpleGridDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleGridDB *' at 0x11cb8b240> >",
+                                        "class": "<spatialdata.spatialdb.SimpleGridDB.SimpleGridDB; proxy of <Swig Object of type 'spatialdata::spatialdb::SimpleGridDB *' at 0x11e6c74b0> >",
                                         "description": "Database for physical property parameters.",
                                         "setFrom": "{imported} via {file='heterogeneous_greensfxn.cfg', line=55, column=-1}",
                                         "aliases": [
@@ -2686,7 +2686,7 @@
                                     },
                                     "derived_subfields": {
                                         "name": "derived_subfields",
-                                        "class": "<pylith.materials.DerivedSubfieldsElasticity.DerivedSubfieldsElasticity object at 0x11c9ba2c0>",
+                                        "class": "<pylith.materials.DerivedSubfieldsElasticity.DerivedSubfieldsElasticity object at 0x11e5aa530>",
                                         "description": "Discretization of derived subfields.",
                                         "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/inventory/ConfigurableClass.py', line=26, function='__set__'}",
                                         "aliases": [
@@ -2696,7 +2696,7 @@
                                         "components": {
                                             "cauchy_strain": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11c9baad0>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e5aad40>",
                                                 "description": "Cauchy strain subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2745,7 +2745,7 @@
                                             },
                                             "cauchy_stress": {
                                                 "name": "subfield",
-                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11c9bab90>",
+                                                "class": "<pylith.topology.Subfield.Subfield object at 0x11e5aae00>",
                                                 "description": "Cauchy stress subfield.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -2796,7 +2796,7 @@
                                     },
                                     "observers": {
                                         "name": "singlephysicsobserver",
-                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11cb64700>",
+                                        "class": "<pylith.problems.SingleObserver.SinglePhysicsObserver object at 0x11e6a0970>",
                                         "description": "Observers (e.g., output).",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -2856,7 +2856,7 @@
                                                     },
                                                     "writer": {
                                                         "name": "datawriterhdf5",
-                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cbb0f60> >",
+                                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e6ed1d0> >",
                                                         "description": "Writer for data.",
                                                         "setFrom": "{default}",
                                                         "aliases": [
@@ -2883,7 +2883,7 @@
                     },
                     "normalizer": {
                         "name": "nondimelasticquasistatic",
-                        "class": "<spatialdata.units.NondimElasticQuasistatic.NondimElasticQuasistatic; proxy of <Swig Object of type 'spatialdata::units::Nondimensional *' at 0x11c9b8030> >",
+                        "class": "<spatialdata.units.NondimElasticQuasistatic.NondimElasticQuasistatic; proxy of <Swig Object of type 'spatialdata::units::Nondimensional *' at 0x11e5a82a0> >",
                         "description": "Nondimensionalizer for problem.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -2914,7 +2914,7 @@
                     },
                     "petsc_defaults": {
                         "name": "petscdefaults",
-                        "class": "<pylith.utils.PetscDefaults.PetscDefaults object at 0x11c8fa290>",
+                        "class": "<pylith.utils.PetscDefaults.PetscDefaults object at 0x11e4ee500>",
                         "description": "Flags controlling which default PETSc options to use.",
                         "setFrom": "{default}",
                         "aliases": [
@@ -2982,7 +2982,7 @@
                     },
                     "solution": {
                         "name": "solution",
-                        "class": "<pylith.problems.SolnDispLagrange.Solution object at 0x11c8faa70>",
+                        "class": "<pylith.problems.SolnDispLagrange.Solution object at 0x11e4eece0>",
                         "description": "Solution field for problem.",
                         "setFrom": "{imported} via {file='./pylithapp.cfg', line=55, column=-1}",
                         "aliases": [
@@ -2993,7 +2993,7 @@
                         "components": {
                             "subfields": {
                                 "name": "solndisplagrange",
-                                "class": "<pylith.problems.SolnDispLagrange.SolnDispLagrange object at 0x11c988670>",
+                                "class": "<pylith.problems.SolnDispLagrange.SolnDispLagrange object at 0x11e5788e0>",
                                 "description": "Subfields in solution.",
                                 "setFrom": "{default}",
                                 "aliases": [
@@ -3004,7 +3004,7 @@
                                 "components": {
                                     "displacement": {
                                         "name": "subfielddisplacement",
-                                        "class": "<pylith.problems.SubfieldDisplacement.SubfieldDisplacement object at 0x11c989330>",
+                                        "class": "<pylith.problems.SubfieldDisplacement.SubfieldDisplacement object at 0x11e5795a0>",
                                         "description": "Displacement subfield.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3059,7 +3059,7 @@
                                     },
                                     "lagrange_multiplier_fault": {
                                         "name": "subfieldlagrangefault",
-                                        "class": "<pylith.problems.SubfieldLagrangeFault.SubfieldLagrangeFault object at 0x11c989ae0>",
+                                        "class": "<pylith.problems.SubfieldLagrangeFault.SubfieldLagrangeFault object at 0x11e579d50>",
                                         "description": "Fault Lagrange multiplier subfield.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3118,7 +3118,7 @@
                     },
                     "solution_observers": {
                         "name": "solution_observers",
-                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11c8fbb80>",
+                        "class": "<pythia.pyre.inventory.FacilityArrayFacility.FacilityArray object at 0x11e4efdf0>",
                         "description": "Observers (e.g., output) for solution.",
                         "setFrom": "{built-in} via {file='heterogeneous_greensfxn.cfg', line=115, column=-1}",
                         "aliases": [
@@ -3171,7 +3171,7 @@
                                     },
                                     "writer": {
                                         "name": "datawriterhdf5",
-                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cd97de0> >",
+                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e8e8090> >",
                                         "description": "Writer for data.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3222,7 +3222,7 @@
                                 "components": {
                                     "reader": {
                                         "name": "pointslist",
-                                        "class": "<pylith.meshio.PointsList.PointsList object at 0x11cdd4070>",
+                                        "class": "<pylith.meshio.PointsList.PointsList object at 0x11e9102e0>",
                                         "description": "Reader for points list.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3252,7 +3252,7 @@
                                         "components": {
                                             "coordsys": {
                                                 "name": "cscart",
-                                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11cdd6cd0> >",
+                                                "class": "<spatialdata.geocoords.CSCart.CSCart; proxy of <Swig Object of type 'spatialdata::geocoords::CSCart *' at 0x11e912f40> >",
                                                 "description": "Coordinate system associated with points.",
                                                 "setFrom": "{default}",
                                                 "aliases": [
@@ -3298,7 +3298,7 @@
                                     },
                                     "writer": {
                                         "name": "datawriterhdf5",
-                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cdaff60> >",
+                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e910210> >",
                                         "description": "Writer for data.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3374,7 +3374,7 @@
                                     },
                                     "writer": {
                                         "name": "datawriterhdf5",
-                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11cdadec0> >",
+                                        "class": "<pylith.meshio.DataWriterHDF5.DataWriterHDF5; proxy of <Swig Object of type 'pylith::meshio::DataWriterHDF5 *' at 0x11e8ea130> >",
                                         "description": "Writer for data.",
                                         "setFrom": "{default}",
                                         "aliases": [
@@ -3399,7 +3399,7 @@
             },
             "scheduler": {
                 "name": "scheduler-none",
-                "class": "<pythia.pyre.schedulers.SchedulerNone.SchedulerNone object at 0x119ae9e10>",
+                "class": "<pythia.pyre.schedulers.SchedulerNone.SchedulerNone object at 0x11b647d60>",
                 "description": "No description available.",
                 "setFrom": "{file='/Users/mckenziecarlson/pylith/pylith-4.1.1-macOS-10.15-x86_64/lib/python3.10/site-packages/pythia/pyre/schedulers/none.odb'} via {default}",
                 "aliases": [
