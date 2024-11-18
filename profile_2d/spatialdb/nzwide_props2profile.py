@@ -6,6 +6,7 @@ Python script to interpolate NZ-wide properties to a profile.
 
 import numpy as np
 from numpy import genfromtxt
+import pandas as pd
 import math
 import scipy
 import h5py
@@ -18,8 +19,8 @@ from coordsys_pylith3 import cs_profile2d
 
 # Input/output files.
 inSpatialdb = '../../nzwide_velmodel/vlnzw2.3_expanded_rot.spatialdb'
-outProfile3D = 'nz_sdb_20m_lwd.h5'
-outProfile2D = 'nz_sdb_20m_lwd.h5'
+outProfile3D = 'nz_sdb_20m_lwd_3D.h5'
+outProfile2D = 'nz_sdb_20m_lwd_2D.h5'
 outSpatialdb = 'nz_sdb_20m_lwd.spatialdb'
 
 # Reference point (trench) in 3D TM coordinates and points defining profile.
@@ -112,7 +113,7 @@ vp = queryData[:,2]
 
 ## ------ Load vp, vs, density from LWD -------- ##
 
-lwd = genfromtxt('downsampled_20m_lwd.csv', delimiter=',',skip_header=1)
+lwd = genfromtxt('downsampled_lwd_new.csv', delimiter=',',skip_header=1)
 new_points = np.column_stack((lwd[:,0].flatten(), lwd[:,1].flatten()))
 new_vs = lwd[:,2]
 new_vp = lwd[:,3]
@@ -224,3 +225,18 @@ writer.write({'points': combined_points,
               'data_dim': 2,
               'values': values_sdb})
 
+print(combined_points)
+print(np.shape(combined_points))
+print(combined_vp)
+print(np.shape(combined_vp))
+
+# export text file with points and vp, vs, density
+export = {'x': combined_points[:,0],
+        'y': combined_points[:,1],
+        'vp': combined_vp,
+        'vs': combined_vs,
+        'density': combined_density}
+
+export_df = pd.DataFrame(export)
+
+export_df.to_csv('all_points_text.txt',index=False)
