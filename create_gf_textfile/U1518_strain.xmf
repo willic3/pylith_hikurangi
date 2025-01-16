@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Xdmf xmlns:xi="http://www.w3.org/2001/XInclude" Version="3.0">
+  <Domain>
+    <Grid CollectionType="Temporal" GridType="Collection" Name="Collection">
+      <Grid Name="Grid">
+        <Time Value="0"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.5828002014988497e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="1"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.2302026098883539e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="2"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">7.1531779874605756e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="3"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">8.1816343721088772e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="4"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">8.8480143644117441e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="5"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">9.2778231740352242e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="6"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.0912091856948422e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="7"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.1938618249098291e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="8"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.3092838752941492e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="9"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.9047811156655456e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="10"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.9509811272821206e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="11"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.6333380045861617e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="12"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.1361553639432503e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="13"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.3086282572727831e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="14"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.4197929548103283e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="15"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.1299251048634687e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="16"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.8027858776041105e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="17"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">7.8587105538751017e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="18"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.6070005528481346e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="19"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.8988886421204208e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="20"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-8.3150060428016466e-11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="21"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.7273523295095525e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="22"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">8.2185495772457917e-11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="23"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.0877644481370296e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="24"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.1029077587193024e-12</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="25"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-4.6765849378045126e-12</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="26"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-9.7457318407960613e-11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="27"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.9790188080951453e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="28"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.4127259520261227e-10</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="29"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.1369518273719955e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="30"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.3329088747843339e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="31"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.7409608117477665e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="32"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.1444602861609771e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="33"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.2422289968976385e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="34"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.5709384880629931e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="35"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.6539473643596729e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="36"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.8817321989099972e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="37"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.9842881307526922e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="38"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.7925328777075621e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="39"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.075203204179905e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="40"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.0418222563904476e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="41"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.0259841203486145e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="42"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.1169741274762693e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="43"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.2531133045597313e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="44"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.2012451961728425e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="45"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.2242452362126301e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="46"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.2078000131220959e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="47"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.2133156265986792e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="48"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.3180658188031448e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="49"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.2748664117816091e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="50"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.3423729085916707e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="51"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.3479746824691702e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="52"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.4457369171218648e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="53"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.4206523627882752e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="54"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.4600865780157817e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="55"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.5015307124350825e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="56"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.5560934654370362e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="57"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.5784295458954118e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="58"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.5834331255439412e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="59"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.6001446010106118e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="60"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.6193376653040545e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="61"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.6518389117421437e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="62"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.7406789443765049e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="63"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.786318965092715e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="64"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.8095749269651036e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="65"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.8484888956355356e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="66"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.9265553541794706e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="67"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.0256587202875148e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="68"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.1536225391569583e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="69"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.2334093106590803e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="70"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.3677463191734047e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="71"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.5411527055102113e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="72"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.7041896483178996e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="73"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.9770351674100758e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="74"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.185075230800629e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="75"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.5437275905005419e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="76"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.8309588161616719e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="77"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.2591109290489823e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="78"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.7926889676943678e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="79"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">7.3752651188224766e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="80"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">8.003485993045307e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="81"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">8.717960395478245e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="82"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">9.46446080170865e-09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="83"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.0445225180582358e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="84"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.1496570680228185e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="85"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.2754146146533446e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="86"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.4295765620586635e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="87"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.5563375290065525e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="88"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.7920499928000262e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="89"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.0046858887650922e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="90"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.2609625493926506e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="91"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.6332938386431904e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="92"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.9939738806108515e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="93"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.5116881458077034e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="94"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.1921233274090882e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="95"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.1895874561822782e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="96"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">5.9263222236307267e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="97"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">7.6999080841226165e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="98"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">8.4651925564634639e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="99"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">9.864874085784545e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="100"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.0412543437521032e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="101"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.1687498775449682e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="102"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.2840083232512509e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="103"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.3932538825666765e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="104"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.5272309533869911e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="105"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.5692184225913881e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="106"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.6900352317520653e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="107"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.7844608279741933e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="108"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.8381407211519005e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="109"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.8953132211206707e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="110"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.0634866267488807e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="111"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.157801479205158e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="112"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.2976371980004645e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="113"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.344223359603519e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="114"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.5242295345129921e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="115"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.5636703808664651e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="116"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.714450419842431e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="117"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.7583867016126703e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="118"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.8099057476485126e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="119"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.8064997389816628e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="120"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.7157123849632476e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="121"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.6153740864899396e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="122"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.4404602821961411e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="123"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.1481851362552964e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="124"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.8806077191584214e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="125"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.5608269645736009e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="126"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.0808296386924992e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="127"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.0879536804768833e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="128"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.6317572717123673e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="129"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.6963221734855582e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="130"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.0023898411081888e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="131"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.7158628186261878e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="132"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4472716122174758e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="133"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.3407293756536336e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="134"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4849116635023083e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="135"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4461805058123522e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="136"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.020801129843881e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="137"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4267890171127446e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="138"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.487981871289472e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="139"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.3207529962812378e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="140"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4675408423389851e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="141"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4074312245267507e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="142"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.9034624309508594e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="143"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.0894940669741854e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="144"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4829556074523902e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="145"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.2304202123259719e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="146"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4323123304590687e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="147"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.3156771505857849e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="148"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.418851071598945e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="149"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.1635155975830756e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="150"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.4334022352728131e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="151"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.3860412739033408e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="152"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.3931370566613528e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="153"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.9114462436259648e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="154"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.5923138831269373e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="155"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.1419245012400856e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="156"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.2654025831844208e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="157"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.9468956304754592e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="158"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-3.0036979235501546e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="159"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.8317929199678077e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="160"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.9029128969779385e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="161"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.7072308952764082e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="162"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.1953211134036311e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="163"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-5.4616854351649909e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="164"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.5232034365266351e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="165"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-2.4354126526296387e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="166"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.2594498957763819e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="167"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.8977926302763106e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="168"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.3945836880642339e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="169"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-1.1918996458718718e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="170"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">-5.8036316229950512e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="171"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.14680452779821e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="172"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.8104192138692932e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="173"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.2804929632233649e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="174"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">6.6026348130190119e-08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="175"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.712672878632222e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="176"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">1.5585731466467087e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="177"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.7221458272452521e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="178"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.3343831509441609e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="179"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">4.9522087938347688e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="180"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">2.521795241216461e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="181"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.9529172205880467e-07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="182"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="3 3" Format="XML" Precision="4">-5545.5801 -2845.2471 -0 -5541.0488 -2854.7341 -0 -5535.0776 -2845.9446 -0</DataItem>
+        </Geometry>
+        <Topology Dimensions="1" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="4" Format="XML" Precision="8">4 1 2 0</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="U1518_avgstrain" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="1" Format="XML" Precision="8">3.0257294235321334e-07</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>

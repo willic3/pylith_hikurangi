@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Xdmf xmlns:xi="http://www.w3.org/2001/XInclude" Version="3.0">
+  <Domain>
+    <Grid CollectionType="Temporal" GridType="Collection" Name="Collection">
+      <Grid Name="Grid">
+        <Time Value="0"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data0</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data1</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data2</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="1"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data3</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data4</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data5</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="2"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data6</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data7</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data8</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="3"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data9</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data10</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data11</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="4"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data12</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data13</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data14</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="5"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data15</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data16</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data17</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="6"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data18</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data19</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data20</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="7"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data21</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data22</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data23</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="8"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data24</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data25</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data26</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="9"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data27</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data28</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data29</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="10"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data30</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data31</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data32</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="11"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data33</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data34</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data35</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="12"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data36</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data37</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data38</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="13"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data39</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data40</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data41</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="14"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data42</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data43</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data44</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="15"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data45</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data46</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data47</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="16"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data48</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data49</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data50</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="17"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data51</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data52</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data53</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="18"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data54</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data55</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data56</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="19"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data57</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data58</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data59</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="20"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data60</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data61</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data62</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="21"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data63</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data64</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data65</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="22"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data66</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data67</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data68</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="23"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data69</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data70</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data71</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="24"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data72</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data73</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data74</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="25"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data75</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data76</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data77</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="26"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data78</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data79</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data80</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="27"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data81</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data82</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data83</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="28"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data84</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data85</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data86</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="29"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data87</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data88</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data89</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="30"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data90</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data91</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data92</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="31"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data93</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data94</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data95</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="32"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data96</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data97</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data98</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="33"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data99</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data100</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data101</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="34"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data102</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data103</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data104</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="35"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data105</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data106</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data107</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="36"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data108</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data109</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data110</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="37"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data111</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data112</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data113</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="38"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data114</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data115</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data116</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="39"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data117</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data118</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data119</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="40"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data120</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data121</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data122</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="41"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data123</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data124</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data125</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="42"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data126</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data127</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data128</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="43"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data129</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data130</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data131</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="44"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data132</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data133</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data134</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="45"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data135</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data136</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data137</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="46"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data138</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data139</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data140</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="47"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data141</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data142</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data143</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="48"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data144</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data145</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data146</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="49"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data147</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data148</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data149</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="50"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data150</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data151</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data152</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="51"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data153</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data154</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data155</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="52"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data156</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data157</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data158</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="53"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data159</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data160</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data161</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="54"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data162</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data163</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data164</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="55"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data165</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data166</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data167</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="56"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data168</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data169</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data170</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="57"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data171</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data172</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data173</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="58"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data174</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data175</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data176</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="59"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data177</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data178</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data179</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="60"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data180</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data181</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data182</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="61"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data183</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data184</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data185</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="62"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data186</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data187</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data188</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="63"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data189</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data190</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data191</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="64"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data192</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data193</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data194</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="65"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data195</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data196</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data197</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="66"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data198</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data199</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data200</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="67"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data201</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data202</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data203</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="68"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data204</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data205</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data206</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="69"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data207</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data208</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data209</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="70"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data210</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data211</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data212</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="71"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data213</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data214</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data215</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="72"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data216</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data217</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data218</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="73"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data219</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data220</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data221</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="74"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data222</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data223</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data224</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="75"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data225</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data226</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data227</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="76"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data228</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data229</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data230</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="77"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data231</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data232</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data233</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="78"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data234</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data235</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data236</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="79"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data237</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data238</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data239</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="80"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data240</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data241</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data242</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="81"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data243</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data244</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data245</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="82"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data246</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data247</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data248</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="83"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data249</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data250</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data251</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="84"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data252</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data253</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data254</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="85"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data255</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data256</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data257</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="86"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data258</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data259</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data260</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="87"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data261</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data262</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data263</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="88"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data264</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data265</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data266</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="89"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data267</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data268</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data269</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="90"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data270</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data271</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data272</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="91"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data273</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data274</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data275</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="92"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data276</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data277</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data278</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="93"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data279</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data280</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data281</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="94"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data282</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data283</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data284</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="95"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data285</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data286</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data287</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="96"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data288</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data289</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data290</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="97"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data291</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data292</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data293</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="98"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data294</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data295</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data296</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="99"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data297</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data298</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data299</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="100"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data300</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data301</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data302</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="101"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data303</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data304</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data305</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="102"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data306</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data307</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data308</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="103"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data309</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data310</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data311</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="104"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data312</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data313</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data314</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="105"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data315</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data316</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data317</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="106"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data318</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data319</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data320</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="107"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data321</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data322</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data323</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="108"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data324</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data325</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data326</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="109"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data327</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data328</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data329</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="110"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data330</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data331</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data332</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="111"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data333</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data334</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data335</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="112"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data336</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data337</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data338</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="113"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data339</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data340</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data341</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="114"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data342</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data343</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data344</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="115"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data345</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data346</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data347</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="116"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data348</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data349</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data350</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="117"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data351</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data352</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data353</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="118"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data354</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data355</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data356</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="119"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data357</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data358</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data359</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="120"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data360</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data361</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data362</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="121"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data363</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data364</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data365</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="122"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data366</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data367</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data368</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="123"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data369</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data370</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data371</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="124"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data372</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data373</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data374</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="125"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data375</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data376</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data377</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="126"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data378</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data379</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data380</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="127"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data381</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data382</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data383</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="128"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data384</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data385</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data386</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="129"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data387</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data388</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data389</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="130"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data390</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data391</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data392</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="131"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data393</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data394</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data395</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="132"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data396</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data397</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data398</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="133"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data399</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data400</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data401</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="134"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data402</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data403</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data404</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="135"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data405</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data406</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data407</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="136"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data408</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data409</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data410</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="137"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data411</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data412</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data413</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="138"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data414</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data415</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data416</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="139"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data417</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data418</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data419</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="140"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data420</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data421</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data422</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="141"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data423</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data424</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data425</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="142"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data426</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data427</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data428</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="143"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data429</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data430</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data431</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="144"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data432</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data433</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data434</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="145"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data435</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data436</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data437</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="146"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data438</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data439</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data440</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="147"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data441</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data442</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data443</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="148"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data444</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data445</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data446</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="149"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data447</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data448</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data449</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="150"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data450</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data451</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data452</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="151"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data453</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data454</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data455</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="152"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data456</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data457</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data458</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="153"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data459</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data460</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data461</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="154"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data462</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data463</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data464</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="155"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data465</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data466</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data467</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="156"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data468</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data469</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data470</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="157"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data471</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data472</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data473</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="158"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data474</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data475</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data476</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="159"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data477</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data478</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data479</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="160"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data480</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data481</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data482</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="161"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data483</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data484</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data485</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="162"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data486</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data487</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data488</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="163"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data489</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data490</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data491</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="164"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data492</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data493</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data494</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="165"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data495</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data496</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data497</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="166"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data498</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data499</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data500</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="167"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data501</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data502</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data503</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="168"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data504</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data505</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data506</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="169"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data507</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data508</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data509</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="170"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data510</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data511</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data512</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="171"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data513</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data514</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data515</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="172"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data516</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data517</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data518</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="173"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data519</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data520</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data521</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="174"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data522</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data523</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data524</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="175"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data525</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data526</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data527</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="176"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data528</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data529</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data530</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="177"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data531</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data532</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data533</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="178"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data534</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data535</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data536</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="179"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data537</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data538</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data539</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="180"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data540</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data541</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data542</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="181"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data543</DataItem>
+        </Geometry>
+        <Topology Dimensions="132148" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data544</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data545</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="Grid">
+        <Time Value="182"/>
+        <Geometry Origin="" Type="XYZ">
+          <DataItem DataType="Float" Dimensions="16987 3" Format="HDF" Precision="4">test_extracted_avg_U1519.h5:Data546</DataItem>
+        </Geometry>
+        <Topology Dimensions="33037" Type="Mixed">
+          <DataItem DataType="Int" Dimensions="132148" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data547</DataItem>
+        </Topology>
+        <Attribute Center="Cell" ElementCell="" ElementDegree="0" ElementFamily="" ItemType="" Name="whole_domain_avg" Type="Scalar">
+          <DataItem DataType="Float" Dimensions="33037" Format="HDF" Precision="8">test_extracted_avg_U1519.h5:Data548</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
