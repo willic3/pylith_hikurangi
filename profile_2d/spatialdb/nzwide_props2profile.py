@@ -105,8 +105,8 @@ dbNzwide.setQueryValues(["density", "vs", "vp"])
 dbNzwide.multiquery(queryData, queryErr, coords3D, csGisborne)
 dbNzwide.close()
 density = queryData[:,0]
-vs = queryData[:,1]
-vp = queryData[:,2]
+vs = queryData[:,1] / 1e3
+vp = queryData[:,2] / 1e3
 
 
 ## --- Add LWD to vp, vs, density, and points --- ##
@@ -115,9 +115,13 @@ vp = queryData[:,2]
 
 lwd = genfromtxt('downsampled_lwd_new.csv', delimiter=',',skip_header=1)
 new_points = np.column_stack((lwd[:,0].flatten(), lwd[:,1].flatten()))
-new_vs = lwd[:,2]
-new_vp = lwd[:,3]
+new_vs = lwd[:,2] / 1e3
+new_vp = lwd[:,3] / 1e3
 new_density = lwd[:,4]
+
+print(new_vp)
+print(new_vs)
+print(new_density)
 
 # Combine coordinates from sdb and lwd
 combined_points = np.vstack((points2D, new_points))
@@ -211,10 +215,10 @@ xdmfWriter.write(outProfile2D)
 writer = createWriter(outSpatialdb)
 
 values_sdb = [{'name': "vp",
-           'units': "m/s",
+           'units': "km/s",
            'data': combined_vp},
           {'name': "vs",
-           'units': "m/s",
+           'units': "km/s",
            'data': combined_vs},
           {'name': "density",
            'units': "kg/m**3",
@@ -225,10 +229,10 @@ writer.write({'points': combined_points,
               'data_dim': 2,
               'values': values_sdb})
 
-print(combined_points)
-print(np.shape(combined_points))
-print(combined_vp)
-print(np.shape(combined_vp))
+#print(combined_points)
+#print(np.shape(combined_points))
+#print(combined_vp)
+#print(np.shape(combined_vp))
 
 # export text file with points and vp, vs, density
 export = {'x': combined_points[:,0],

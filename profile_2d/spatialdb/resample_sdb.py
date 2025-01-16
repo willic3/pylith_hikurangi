@@ -111,10 +111,10 @@ grid_numPoints = points2D.shape[0]
 writer = createWriter(outSpatialdb)
 
 values_sdb = [{'name': "vp",
-           'units': "m/s",
+           'units': "km/s",
            'data': grid_vp},
           {'name': "vs",
-           'units': "m/s",
+           'units': "km/s",
            'data': grid_vs},
           {'name': "density",
            'units': "kg/m**2",
@@ -149,5 +149,6 @@ densityH = h5.create_dataset("vertex_fields/density", data=grid_density.reshape(
 densityH.attrs['vector_field_type'] = 'scalar'
 
 h5.close()
+
 xdmfWriter = Xdmf()
 xdmfWriter.write(outProfile2D)
