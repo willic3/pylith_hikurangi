@@ -315,7 +315,7 @@ class MkForward(Application):
             if (strainRespFile != ''):
                 respStrain = h5py.File(strainRespFile, 'r')
                 coords = respStrain['geometry/vertices'][:]
-                cells = numpy.array(respStrain['topology/cells'][:], dtype=numpy.int32)
+                cells = numpy.array(respStrain['viz/topology/cells'][:], dtype=numpy.int32)
                 cellCoords = coords[cells, :]
                 cellCenter = numpy.mean(cellCoords, axis=1)
                 strainVals = respStrain['cell_fields/total_strain'][:]
