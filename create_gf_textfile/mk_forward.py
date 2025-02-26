@@ -156,6 +156,7 @@ class MkForward(Application):
         """
         print("Writing impulses and responses:")
         sys.stdout.flush()
+        # Each row gives the trapezoid center coordinate followed by the responses at each of the observation sites.
         responseHead = 'X_Center\t' + '\t'.join(self.siteComponents) + '\n'
         outVals = numpy.append(self.trapVals[:,-1].reshape(self.numTrapezoids, 1), self.dataPredicted, axis=1)
         responseFile = self.outputRoot + '_response.txt'
@@ -164,12 +165,16 @@ class MkForward(Application):
         numpy.savetxt(r, outVals, delimiter='\t')
         r.close()
 
+        # Each row gives (x,y) coordinates of each trapezoid vertex, where x is the x-coordinate and y is the slip
+        # amount. The last entry in the row is the x-coordinate of the trapezoid center.
         trapezoidFile = self.outputRoot + '_trapezoid.txt'
         t = open(trapezoidFile, 'w')
         t.write(self.trapezoidHead)
         numpy.savetxt(t, self.trapVals, fmt='%g', delimiter='\t')
         t.close()
 
+        # Each row gives the (x,y) coordinates of each PyLith fault vertex, followed by the corresponding impulse
+        # values for each trapezoid.
         impulseFile = self.outputRoot + '_impulse.txt'
         i = open(impulseFile, 'w')
         i.write(self.impulseHead)
@@ -177,6 +182,7 @@ class MkForward(Application):
         numpy.savetxt(i, outVals, delimiter='\t')
         i.close()
 
+        # Write a spatialdb for each trapezoid.
         for trapNum in range(self.numTrapezoids):
             self._writeSpatialdb(trapNum)
 
@@ -232,16 +238,21 @@ class MkForward(Application):
         else:
             y = numpy.array([1.0, 1.0, 1.0, 1.0], dtype=numpy.float64)
 
+        # Create an interpolation function based on the given trapezoid.
         f = scipy.interpolate.interp1d(x, y, assume_sorted=True)
 
+        # Only use coordinates between the given values.
         slipInds = numpy.where(numpy.logical_and(coords >= x[0], coords <= x[3]))
         coordsUse = coords[slipInds]
+        # Apply the interpolation function to the given coordinates.
         slip = f(coordsUse)
         y = numpy.array([0.0, 1.0, 1.0, 0.0], dtype=numpy.float64)
 
+        # Put the slip values into a vector that includes the entire fault.
         slipVec = numpy.zeros(self.numImpulses, dtype=numpy.float64)
         slipVec[slipInds] = slip
 
+        # Create a geometric representation of the slip distribution along the fault.
         trapVals = numpy.zeros(8, dtype=numpy.float64)
         trapVals[0::2] = x
         trapVals[1::2] = y
@@ -262,10 +273,15 @@ class MkForward(Application):
         self.impulseVals = numpy.zeros((self.numTrapezoids, self.numImpulses), dtype=numpy.float64)
 
         for trapNum in range(self.numTrapezoids):
+            # Get slip vector for each trapezoidal slip distribution.
             (trapVals, slipVec) = self._createTrapezoid(self.slipCenters[trapNum])
+            # We multiply the design matrix by the slip vector to get the lumped response at
+            # each observation point.
             predictedVals = numpy.dot(self.designMat, slipVec)
+            # The dataPredicted values for each trapezoid are the lumped response.
             self.dataPredicted[trapNum, :] = predictedVals
             self.trapVals[trapNum, :] = trapVals
+            # The impulse values for each trapezoid are the applied slip vector.
             self.impulseVals[trapNum, :] = slipVec
             self.impulseHead += '\ttrapezoid_%d' % trapNum
 
@@ -302,6 +318,7 @@ class MkForward(Application):
             respDisp = h5py.File(respDispFile, 'r')
             respDispCoords = respDisp['geometry/vertices'][:]
             respDispVals = respDisp['vertex_fields/displacement'][:]
+            # Sort responses according to impulse sorting.
             respDispValsSort = respDispVals[impSort,:,:]
             respDisp.close()
 
@@ -342,6 +359,8 @@ class MkForward(Application):
         self.designMat = numpy.zeros((self.numObs, self.numImpulses), dtype=numpy.float64)
 
         # Create design matrix by sorting response values.
+        # Each column represents an impulse from a fault vertex.
+        # Each row represents the responses for the appropriate observation.
         colNum = 0
         rowNum = 0
         siteNum = 0
